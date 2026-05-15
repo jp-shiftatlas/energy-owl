@@ -1,12 +1,12 @@
-import { useState, type FormEvent } from "react";
+import { type FormEvent } from "react";
 
 type Props = {
+  value: string;
+  onChange: (v: string) => void;
   onSubmit: (address: string) => void;
 };
 
-export default function AddressInput({ onSubmit }: Props) {
-  const [value, setValue] = useState("");
-
+export default function AddressInput({ value, onChange, onSubmit }: Props) {
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const trimmed = value.trim();
@@ -23,7 +23,7 @@ export default function AddressInput({ onSubmit }: Props) {
         id="address"
         type="text"
         value={value}
-        onChange={(e) => setValue(e.target.value)}
+        onChange={(e) => onChange(e.target.value)}
         placeholder="1 Apple Park Way, Cupertino, CA"
         autoComplete="off"
         spellCheck={false}

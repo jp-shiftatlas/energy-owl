@@ -1,11 +1,33 @@
+import { useState } from "react";
 import AddressInput from "./components/AddressInput";
+import DemoAddressChips from "./components/DemoAddressChips";
+import ResultsPanel from "./components/ResultsPanel";
+import {
+  useSolarAnalysis,
+  type AnalysisInput,
+} from "./hooks/useSolarAnalysis";
+import type { DemoAddress } from "./lib/demoAddresses";
 import Scene from "./scene/Canvas";
 
 export default function App() {
+  const [inputValue, setInputValue] = useState("");
+  const [analysis, setAnalysis] = useState<AnalysisInput | null>(null);
+
   function handleAddressSubmit(address: string) {
-    // S1: log only. S2 will trigger API calls here.
-    console.log("Address submitted:", address);
+    setAnalysis({ kind: "address", address });
   }
+
+  function handleDemoSelect(a: DemoAddress) {
+    setInputValue(a.address);
+    setAnalysis({
+      kind: "coords",
+      address: a.address,
+      lat: a.lat,
+      lng: a.lng,
+    });
+  }
+
+  const result = useSolarAnalysis(analysis);
 
   return (
     <div className="min-h-screen flex flex-col bg-forest text-offwhite">
@@ -21,13 +43,16 @@ export default function App() {
 
       <div className="flex-1 grid grid-cols-1 lg:grid-cols-[minmax(320px,420px)_1fr] gap-6 px-6 md:px-10 py-8">
         <section className="flex flex-col gap-6">
-          <div className="rounded-lg border border-sage/20 bg-forest p-5">
-            <AddressInput onSubmit={handleAddressSubmit} />
+          <div className="rounded-lg border border-sage/20 bg-forest p-5 flex flex-col gap-5">
+            <AddressInput
+              value={inputValue}
+              onChange={setInputValue}
+              onSubmit={handleAddressSubmit}
+            />
+            <DemoAddressChips onSelect={handleDemoSelect} />
           </div>
           <div className="rounded-lg border border-sage/20 bg-forest p-5">
-            <p className="text-sm text-offwhite/60">
-              Results panel — wired in S2.
-            </p>
+            <ResultsPanel analysis={result} />
           </div>
         </section>
 
