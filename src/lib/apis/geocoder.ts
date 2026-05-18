@@ -1,3 +1,14 @@
+// TODO(scope): freeform input pending scope decision. S2 verification showed
+// the US Census Geocoder does not return Access-Control-Allow-Origin, so this
+// client can't be called from the browser. Two coherent paths:
+//   (a) accept v1 ships chips-only; type-any-address moves to v2
+//   (b) update v1 spec to allow Vercel edge rewrites as frontend-only deploy
+//       infrastructure, then route this through /api/geocode
+// Until that decision is made, the freeform-input path degrades to the
+// "Address lookup is briefly unavailable" branded message via the existing
+// GeocoderError("network") path — that's the safety net. Demo chips bypass
+// this client entirely.
+
 export type GeocodeResult = {
   lat: number;
   lng: number;
