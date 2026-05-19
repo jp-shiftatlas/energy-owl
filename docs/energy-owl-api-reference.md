@@ -159,37 +159,53 @@ GET https://solar.googleapis.com/v1/buildingInsights:findClosest
 https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude=37.3346&location.longitude=-122.0090&requiredQuality=HIGH&key=YOUR_KEY
 ```
 
-**Response shape (relevant fields):**
+**Response shape (verified against the live API on 2026-05-19 with
+Apple Park coords; fixture saved at
+`src/lib/apis/__fixtures__/buildingInsights.applePark.json`):**
 ```json
 {
   "name": "buildings/ChIJN8p-JpG1j4AR6cZxVhdYEUQ",
-  "center": { "latitude": 37.3346, "longitude": -122.0090 },
-  "imageryDate": { "year": 2022, "month": 4, "day": 23 },
-  "imageryQuality": "HIGH",
-  "regionCode": "US",
+  "center": { "latitude": 37.3348587, "longitude": -122.0090003 },
+  "imageryDate": { "year": 2023, "month": 9, "day": 11 },
+  "imageryProcessedDate": { "year": 2026, "month": 4, "day": 19 },
+  "postalCode": "95014",
   "administrativeArea": "CA",
+  "statisticalArea": "06085503112",
+  "regionCode": "US",
+  "imageryQuality": "HIGH",
+  "boundingBox": {
+    "sw": { "latitude": ..., "longitude": ... },
+    "ne": { "latitude": ..., "longitude": ... }
+  },
   "solarPotential": {
     "maxArrayPanelsCount": 24942,
     "maxArrayAreaMeters2": 48975,
     "maxSunshineHoursPerYear": 1892,
+    "carbonOffsetFactorKgPerMwh": 428.9,
     "panelCapacityWatts": 400,
     "panelHeightMeters": 1.879,
     "panelWidthMeters": 1.045,
+    "panelLifetimeYears": 20,
+    "wholeRoofStats":  { "areaMeters2": ..., "sunshineQuantiles": [...], "groundAreaMeters2": ... },
+    "buildingStats":   { "areaMeters2": ..., "sunshineQuantiles": [...], "groundAreaMeters2": ... },
     "roofSegmentStats": [
       {
-        "pitchDegrees": 0.0,
+        "pitchDegrees": 0.1,
         "azimuthDegrees": 0.0,
-        "stats": { "areaMeters2": 1867, "groundAreaMeters2": 1867 },
-        "center": { "latitude": 37.334192, "longitude": -122.006971 },
-        "boundingBox": {
-          "sw": { ... },
-          "ne": { ... }
-        }
+        "planeHeightAtCenterMeters": 71.92,
+        "stats": {
+          "areaMeters2": 1867,
+          "sunshineQuantiles": [367.27, 1553.77, 1719.96, 1750.07, 1764.40, 1774.02, 1782.47, 1791.11, 1803.40, 1826.12, 1975.89],
+          "groundAreaMeters2": 1867
+        },
+        "center": { "latitude": 37.3363934, "longitude": -122.0078851 },
+        "boundingBox": { "sw": { ... }, "ne": { ... } }
       },
-      ... 130 segments for Apple Park
+      ... 148 segments for Apple Park
     ],
-    "solarPanels": [ ... ],
-    "solarPanelConfigs": [ ... ]
+    "solarPanels": [ ... 27,297 entries for Apple Park ],
+    "solarPanelConfigs": [ ... 622 entries for Apple Park ],
+    "financialAnalyses": [ ... 23 entries for Apple Park ]
   }
 }
 ```
@@ -205,11 +221,29 @@ https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude=3
 - `roofSegmentStats` is what you render. `solarPanels` is detailed
   individual panel placement — not needed for v1 if we draw aggregate
   roof segments with shading.
+- `stats.sunshineQuantiles` is an **11-element** array: the 0%, 10%,
+  20%, …, 100% percentiles of estimated annual sunshine hours over
+  the segment. Use `[5]` (the median) as the single-number proxy
+  for that segment's sunshine quality. The same field appears on
+  `wholeRoofStats` and `buildingStats` at the building aggregate level.
+- `planeHeightAtCenterMeters` is **absolute elevation (meters above
+  sea level)**, not height above ground. To get a relative roof Y
+  for rendering, subtract the minimum `planeHeightAtCenterMeters`
+  across all segments to anchor the lowest segment at Y=0. Apple Park
+  shows a ~6.7 m spread across its 148 segments.
 - `panelHeightMeters` / `panelWidthMeters` are physical panel dimensions
-  (~1.88m × 1.05m for the default panel) — useful for scale reference
+  (~1.88 m × 1.05 m for the default panel) — useful for scale reference
   if you ever draw individual panels.
-- Pitch 0° = flat roof. Most commercial buildings will be flat.
-- Imagery date can be 2–4 years old. That's fine.
+- Pitch 0° = flat roof. Most commercial buildings will be flat;
+  Apple Park's pitches span 0.1°–42.8° because the spaceship roof
+  has many curved segments — useful stress-test geometry.
+- `imageryDate` (when the aerial was captured) and `imageryProcessedDate`
+  (when Google ran the solar pipeline on it) are different. The
+  capture date can be 2–4 years old — fine for the demo.
+- `solarPanels` (per-panel placements), `solarPanelConfigs` (every
+  size/orientation combination), and `financialAnalyses` are huge
+  (12+ MB on Apple Park) and v1-unused. The committed fixture has
+  these three arrays stripped out.
 
 **Daily quota:** Capped at 500/day in JP's Google Cloud project to
 prevent runaway costs. $300 free credit covers thousands of calls

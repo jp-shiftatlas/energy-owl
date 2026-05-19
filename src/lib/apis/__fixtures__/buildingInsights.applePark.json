@@ -1,0 +1,5406 @@
+{
+  "name": "buildings/ChIJN8p-JpG1j4AR6cZxVhdYEUQ",
+  "center": {
+    "latitude": 37.334858700000005,
+    "longitude": -122.0090003
+  },
+  "imageryDate": {
+    "year": 2023,
+    "month": 9,
+    "day": 11
+  },
+  "postalCode": "94087",
+  "administrativeArea": "CA",
+  "statisticalArea": "06085508102",
+  "regionCode": "US",
+  "solarPotential": {
+    "maxArrayPanelsCount": 27297,
+    "maxArrayAreaMeters2": 53599.156,
+    "maxSunshineHoursPerYear": 1890.1799,
+    "carbonOffsetFactorKgPerMwh": 428.9201,
+    "wholeRoofStats": {
+      "areaMeters2": 67585.8,
+      "sunshineQuantiles": [
+        238.86217,
+        1569.9128,
+        1656.0409,
+        1689.9011,
+        1723.3501,
+        1756.654,
+        1781.5359,
+        1807.6217,
+        1836.981,
+        1863.5529,
+        1982.2074
+      ],
+      "groundAreaMeters2": 66718.4
+    },
+    "roofSegmentStats": [
+      {
+        "pitchDegrees": 0.41507354,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 1621.4525,
+          "sunshineQuantiles": [
+            367.2671,
+            1553.7709,
+            1719.9608,
+            1750.0696,
+            1764.3998,
+            1774.0186,
+            1782.4672,
+            1791.1088,
+            1803.3951,
+            1826.1182,
+            1975.8864
+          ],
+          "groundAreaMeters2": 1621.41
+        },
+        "center": {
+          "latitude": 37.3363934,
+          "longitude": -122.0078851
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3358851,
+            "longitude": -122.00899280000002
+          },
+          "ne": {
+            "latitude": 37.336725699999995,
+            "longitude": -122.0070744
+          }
+        },
+        "planeHeightAtCenterMeters": 71.919846
+      },
+      {
+        "pitchDegrees": 0.1001259,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 1350.7721,
+          "sunshineQuantiles": [
+            411.17633,
+            1554.2461,
+            1727.9913,
+            1751.3986,
+            1763.1475,
+            1772.6406,
+            1781.9537,
+            1791.3542,
+            1801.8463,
+            1817.915,
+            1981.1962
+          ],
+          "groundAreaMeters2": 1350.77
+        },
+        "center": {
+          "latitude": 37.334108799999996,
+          "longitude": -122.0069535
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3334885,
+            "longitude": -122.0073899
+          },
+          "ne": {
+            "latitude": 37.334729300000006,
+            "longitude": -122.0066547
+          }
+        },
+        "planeHeightAtCenterMeters": 71.95443
+      },
+      {
+        "pitchDegrees": 0.8743217,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 1110.2593,
+          "sunshineQuantiles": [
+            365.43463,
+            1635.6084,
+            1739.1427,
+            1760.289,
+            1773.3606,
+            1782.6469,
+            1790.3594,
+            1797.6472,
+            1807.3757,
+            1824.7893,
+            1981.1595
+          ],
+          "groundAreaMeters2": 1110.13
+        },
+        "center": {
+          "latitude": 37.335937699999995,
+          "longitude": -122.01083969999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3354802,
+            "longitude": -122.0112333
+          },
+          "ne": {
+            "latitude": 37.3363704,
+            "longitude": -122.01038650000001
+          }
+        },
+        "planeHeightAtCenterMeters": 71.864075
+      },
+      {
+        "pitchDegrees": 7.398215,
+        "azimuthDegrees": 333.90085,
+        "stats": {
+          "areaMeters2": 1019.30554,
+          "sunshineQuantiles": [
+            458.42554,
+            1542.9824,
+            1613.9229,
+            1629.7992,
+            1642.0029,
+            1652.4315,
+            1661.6987,
+            1670.6322,
+            1679.9431,
+            1690.5243,
+            1751.6859
+          ],
+          "groundAreaMeters2": 1010.82
+        },
+        "center": {
+          "latitude": 37.3366488,
+          "longitude": -122.01007740000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3364577,
+            "longitude": -122.0103739
+          },
+          "ne": {
+            "latitude": 37.336822999999995,
+            "longitude": -122.00979919999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.6492
+      },
+      {
+        "pitchDegrees": 7.5053635,
+        "azimuthDegrees": 220.66985,
+        "stats": {
+          "areaMeters2": 1014.7538,
+          "sunshineQuantiles": [
+            974.89734,
+            1777.7418,
+            1792.1254,
+            1799.6172,
+            1805.7172,
+            1811.5345,
+            1817.3326,
+            1823.4552,
+            1830.2341,
+            1838.6953,
+            1929.205
+          ],
+          "groundAreaMeters2": 1006.06
+        },
+        "center": {
+          "latitude": 37.336127,
+          "longitude": -122.00760869999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3358515,
+            "longitude": -122.0078533
+          },
+          "ne": {
+            "latitude": 37.3363241,
+            "longitude": -122.00737869999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.61298
+      },
+      {
+        "pitchDegrees": 7.4053802,
+        "azimuthDegrees": 156.24979,
+        "stats": {
+          "areaMeters2": 1009.1876,
+          "sunshineQuantiles": [
+            456.61642,
+            1846.4326,
+            1855.873,
+            1862.1082,
+            1867.0999,
+            1871.66,
+            1876.0673,
+            1881.0228,
+            1886.6737,
+            1894.4084,
+            1981.8906
+          ],
+          "groundAreaMeters2": 1000.77
+        },
+        "center": {
+          "latitude": 37.3330371,
+          "longitude": -122.00802979999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3328847,
+            "longitude": -122.00836070000001
+          },
+          "ne": {
+            "latitude": 37.3332007,
+            "longitude": -122.00774720000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.649216
+      },
+      {
+        "pitchDegrees": 7.7457542,
+        "azimuthDegrees": 245.80762,
+        "stats": {
+          "areaMeters2": 990.11395,
+          "sunshineQuantiles": [
+            618.26935,
+            1711.6757,
+            1741.5922,
+            1752.7915,
+            1760.087,
+            1766.228,
+            1772.2914,
+            1778.4528,
+            1785.7719,
+            1796.0203,
+            1874.1975
+          ],
+          "groundAreaMeters2": 981.08
+        },
+        "center": {
+          "latitude": 37.334059499999995,
+          "longitude": -122.0112978
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3338365,
+            "longitude": -122.0115168
+          },
+          "ne": {
+            "latitude": 37.334245599999996,
+            "longitude": -122.01108029999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.41233
+      },
+      {
+        "pitchDegrees": 7.611425,
+        "azimuthDegrees": 322.49313,
+        "stats": {
+          "areaMeters2": 987.309,
+          "sunshineQuantiles": [
+            299.76117,
+            1476.743,
+            1592.4283,
+            1620.1659,
+            1634.7197,
+            1648.0533,
+            1660.3336,
+            1672.1964,
+            1683.8119,
+            1696.7501,
+            1915.7483
+          ],
+          "groundAreaMeters2": 978.61
+        },
+        "center": {
+          "latitude": 37.3335335,
+          "longitude": -122.00768120000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3333207,
+            "longitude": -122.007943
+          },
+          "ne": {
+            "latitude": 37.333756,
+            "longitude": -122.00740119999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.664154
+      },
+      {
+        "pitchDegrees": 7.760844,
+        "azimuthDegrees": 261.09247,
+        "stats": {
+          "areaMeters2": 981.1268,
+          "sunshineQuantiles": [
+            294.22806,
+            1572.5347,
+            1675.6309,
+            1707.5099,
+            1723.0525,
+            1732.5121,
+            1740.1472,
+            1747.0647,
+            1754.2795,
+            1764.4348,
+            1936.7422
+          ],
+          "groundAreaMeters2": 972.14
+        },
+        "center": {
+          "latitude": 37.3350548,
+          "longitude": -122.0069049
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3347692,
+            "longitude": -122.0071191
+          },
+          "ne": {
+            "latitude": 37.3353535,
+            "longitude": -122.00675029999998
+          }
+        },
+        "planeHeightAtCenterMeters": 68.51614
+      },
+      {
+        "pitchDegrees": 7.651432,
+        "azimuthDegrees": 298.6029,
+        "stats": {
+          "areaMeters2": 965.224,
+          "sunshineQuantiles": [
+            520.12476,
+            1490.4281,
+            1605.5919,
+            1642.5895,
+            1659.4159,
+            1670.2113,
+            1678.9633,
+            1687.2213,
+            1696.1447,
+            1707.0269,
+            1816.6846
+          ],
+          "groundAreaMeters2": 956.63
+        },
+        "center": {
+          "latitude": 37.3340329,
+          "longitude": -122.00715419999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3338196,
+            "longitude": -122.0074059
+          },
+          "ne": {
+            "latitude": 37.3343013,
+            "longitude": -122.0069199
+          }
+        },
+        "planeHeightAtCenterMeters": 68.63442
+      },
+      {
+        "pitchDegrees": 7.384756,
+        "azimuthDegrees": 164.78008,
+        "stats": {
+          "areaMeters2": 946.47064,
+          "sunshineQuantiles": [
+            434.98798,
+            1842.9695,
+            1851.4585,
+            1858.1146,
+            1864.4591,
+            1870.8535,
+            1877.151,
+            1883.1985,
+            1889.3229,
+            1896.9126,
+            1981.7601
+          ],
+          "groundAreaMeters2": 938.62
+        },
+        "center": {
+          "latitude": 37.3364938,
+          "longitude": -122.00954550000002
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3363046,
+            "longitude": -122.00984539999999
+          },
+          "ne": {
+            "latitude": 37.3366383,
+            "longitude": -122.0092823
+          }
+        },
+        "planeHeightAtCenterMeters": 68.62614
+      },
+      {
+        "pitchDegrees": 0.22637333,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 895.917,
+          "sunshineQuantiles": [
+            319.93256,
+            1344.947,
+            1682.3489,
+            1738.834,
+            1761.1438,
+            1774.2393,
+            1785.5503,
+            1798.6199,
+            1816.0986,
+            1852.0404,
+            1982.1426
+          ],
+          "groundAreaMeters2": 895.91
+        },
+        "center": {
+          "latitude": 37.3366312,
+          "longitude": -122.00947599999998
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3364389,
+            "longitude": -122.01014260000001
+          },
+          "ne": {
+            "latitude": 37.3367534,
+            "longitude": -122.00841740000001
+          }
+        },
+        "planeHeightAtCenterMeters": 71.987656
+      },
+      {
+        "pitchDegrees": 7.615136,
+        "azimuthDegrees": 256.2583,
+        "stats": {
+          "areaMeters2": 903.1856,
+          "sunshineQuantiles": [
+            901.8535,
+            1642.1299,
+            1708.3984,
+            1728.8312,
+            1738.3243,
+            1745.2272,
+            1751.145,
+            1756.9663,
+            1763.2961,
+            1771.87,
+            1857.2687
+          ],
+          "groundAreaMeters2": 895.22
+        },
+        "center": {
+          "latitude": 37.3344194,
+          "longitude": -122.01142960000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.334238899999995,
+            "longitude": -122.01159059999998
+          },
+          "ne": {
+            "latitude": 37.334606799999996,
+            "longitude": -122.01124490000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.612434
+      },
+      {
+        "pitchDegrees": 7.575936,
+        "azimuthDegrees": 141.55782,
+        "stats": {
+          "areaMeters2": 901.48914,
+          "sunshineQuantiles": [
+            395.71075,
+            1810.9083,
+            1843.0298,
+            1850.8981,
+            1856.793,
+            1862.5581,
+            1868.6182,
+            1874.9548,
+            1881.8181,
+            1890.7911,
+            1982.2012
+          ],
+          "groundAreaMeters2": 893.62
+        },
+        "center": {
+          "latitude": 37.336166299999995,
+          "longitude": -122.01036479999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.335960299999996,
+            "longitude": -122.0106344
+          },
+          "ne": {
+            "latitude": 37.3363745,
+            "longitude": -122.0101381
+          }
+        },
+        "planeHeightAtCenterMeters": 68.71133
+      },
+      {
+        "pitchDegrees": 0.51833284,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 883.7762,
+          "sunshineQuantiles": [
+            405.3949,
+            1470.7089,
+            1722.963,
+            1750.1182,
+            1764.2719,
+            1774.9465,
+            1784.4081,
+            1794.0093,
+            1805.8289,
+            1824.2745,
+            1978.677
+          ],
+          "groundAreaMeters2": 883.74
+        },
+        "center": {
+          "latitude": 37.335070699999996,
+          "longitude": -122.01128109999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3345039,
+            "longitude": -122.01137260000002
+          },
+          "ne": {
+            "latitude": 37.335492699999996,
+            "longitude": -122.01112039999998
+          }
+        },
+        "planeHeightAtCenterMeters": 71.936264
+      },
+      {
+        "pitchDegrees": 7.6951184,
+        "azimuthDegrees": 206.54622,
+        "stats": {
+          "areaMeters2": 861.7706,
+          "sunshineQuantiles": [
+            546.6994,
+            1810.6522,
+            1821.4681,
+            1827.9629,
+            1833.3081,
+            1838.3583,
+            1843.4868,
+            1849.1436,
+            1855.6721,
+            1864.4602,
+            1969.043
+          ],
+          "groundAreaMeters2": 854.01
+        },
+        "center": {
+          "latitude": 37.333083599999995,
+          "longitude": -122.01013770000002
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3329253,
+            "longitude": -122.0103977
+          },
+          "ne": {
+            "latitude": 37.3332628,
+            "longitude": -122.00991359999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.51051
+      },
+      {
+        "pitchDegrees": 8.077506,
+        "azimuthDegrees": 39.22576,
+        "stats": {
+          "areaMeters2": 857.39636,
+          "sunshineQuantiles": [
+            438.34543,
+            1556.5007,
+            1653.0958,
+            1672,
+            1684.7416,
+            1696.474,
+            1707.849,
+            1718.221,
+            1728.6409,
+            1741.4719,
+            1942.1985
+          ],
+          "groundAreaMeters2": 848.89
+        },
+        "center": {
+          "latitude": 37.3363796,
+          "longitude": -122.00742249999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3362231,
+            "longitude": -122.0077016
+          },
+          "ne": {
+            "latitude": 37.3366203,
+            "longitude": -122.00707570000002
+          }
+        },
+        "planeHeightAtCenterMeters": 68.68441
+      },
+      {
+        "pitchDegrees": 7.6659927,
+        "azimuthDegrees": 235.14539,
+        "stats": {
+          "areaMeters2": 847.6761,
+          "sunshineQuantiles": [
+            408.08725,
+            1741.8031,
+            1761.4243,
+            1771.9365,
+            1779.7756,
+            1786.7172,
+            1793.7725,
+            1801.1333,
+            1809.6821,
+            1820.6537,
+            1923.5137
+          ],
+          "groundAreaMeters2": 840.1
+        },
+        "center": {
+          "latitude": 37.3337323,
+          "longitude": -122.011074
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3334877,
+            "longitude": -122.0112821
+          },
+          "ne": {
+            "latitude": 37.3339372,
+            "longitude": -122.0108699
+          }
+        },
+        "planeHeightAtCenterMeters": 68.39139
+      },
+      {
+        "pitchDegrees": 7.653718,
+        "azimuthDegrees": 217.23917,
+        "stats": {
+          "areaMeters2": 825.49426,
+          "sunshineQuantiles": [
+            366.89334,
+            1782.46,
+            1798.3575,
+            1806.7487,
+            1813.4207,
+            1819.6844,
+            1826.0438,
+            1832.7429,
+            1840.087,
+            1849.4175,
+            1959.2037
+          ],
+          "groundAreaMeters2": 818.14
+        },
+        "center": {
+          "latitude": 37.3332833,
+          "longitude": -122.01052449999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3330997,
+            "longitude": -122.0107566
+          },
+          "ne": {
+            "latitude": 37.3334912,
+            "longitude": -122.0102888
+          }
+        },
+        "planeHeightAtCenterMeters": 68.56466
+      },
+      {
+        "pitchDegrees": 7.446493,
+        "azimuthDegrees": 276.04816,
+        "stats": {
+          "areaMeters2": 823.89844,
+          "sunshineQuantiles": [
+            533.3159,
+            1591.0693,
+            1659.4149,
+            1691.0974,
+            1702.859,
+            1710.3279,
+            1716.2538,
+            1722.1047,
+            1728.6952,
+            1737.9752,
+            1945.1567
+          ],
+          "groundAreaMeters2": 816.95
+        },
+        "center": {
+          "latitude": 37.3350885,
+          "longitude": -122.01147049999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3349039,
+            "longitude": -122.0116135
+          },
+          "ne": {
+            "latitude": 37.3352875,
+            "longitude": -122.0113263
+          }
+        },
+        "planeHeightAtCenterMeters": 68.66496
+      },
+      {
+        "pitchDegrees": 7.3770766,
+        "azimuthDegrees": 322.2234,
+        "stats": {
+          "areaMeters2": 823.42584,
+          "sunshineQuantiles": [
+            443.53516,
+            1519.3251,
+            1606.2395,
+            1623.4347,
+            1639.4631,
+            1653.4753,
+            1665.587,
+            1675.9197,
+            1685.9097,
+            1697.5028,
+            1745.1431
+          ],
+          "groundAreaMeters2": 816.61
+        },
+        "center": {
+          "latitude": 37.336441400000005,
+          "longitude": -122.01049669999998
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3362318,
+            "longitude": -122.0107043
+          },
+          "ne": {
+            "latitude": 37.3366319,
+            "longitude": -122.01027009999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.73054
+      },
+      {
+        "pitchDegrees": 7.6649103,
+        "azimuthDegrees": 19.054043,
+        "stats": {
+          "areaMeters2": 823.3163,
+          "sunshineQuantiles": [
+            420.33472,
+            1511.3773,
+            1625.0496,
+            1645.8844,
+            1659.9766,
+            1672.0112,
+            1683.2921,
+            1695.1798,
+            1708.281,
+            1724.3165,
+            1820.1523
+          ],
+          "groundAreaMeters2": 815.96
+        },
+        "center": {
+          "latitude": 37.3332854,
+          "longitude": -122.00980999999997
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3331273,
+            "longitude": -122.01006199999999
+          },
+          "ne": {
+            "latitude": 37.3334358,
+            "longitude": -122.0096009
+          }
+        },
+        "planeHeightAtCenterMeters": 68.62066
+      },
+      {
+        "pitchDegrees": 7.3296123,
+        "azimuthDegrees": 152.0425,
+        "stats": {
+          "areaMeters2": 818.88135,
+          "sunshineQuantiles": [
+            401.8649,
+            1843.3275,
+            1849.9012,
+            1855.619,
+            1861.6195,
+            1868.3083,
+            1875.5664,
+            1882.5859,
+            1889.2045,
+            1895.8645,
+            1981.9497
+          ],
+          "groundAreaMeters2": 812.19
+        },
+        "center": {
+          "latitude": 37.3363632,
+          "longitude": -122.0099818
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3361824,
+            "longitude": -122.0102139
+          },
+          "ne": {
+            "latitude": 37.3365242,
+            "longitude": -122.00975790000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.66681
+      },
+      {
+        "pitchDegrees": 7.407609,
+        "azimuthDegrees": 333.74622,
+        "stats": {
+          "areaMeters2": 817.48267,
+          "sunshineQuantiles": [
+            374.49106,
+            1505.6509,
+            1606.2275,
+            1624.7793,
+            1638.351,
+            1649.6637,
+            1659.2373,
+            1668.7754,
+            1678.5692,
+            1690.4535,
+            1736.4382
+          ],
+          "groundAreaMeters2": 810.66
+        },
+        "center": {
+          "latitude": 37.333330499999995,
+          "longitude": -122.00808350000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3331667,
+            "longitude": -122.00832319999999
+          },
+          "ne": {
+            "latitude": 37.3335023,
+            "longitude": -122.0078448
+          }
+        },
+        "planeHeightAtCenterMeters": 68.66236
+      },
+      {
+        "pitchDegrees": 7.4498754,
+        "azimuthDegrees": 99.2724,
+        "stats": {
+          "areaMeters2": 812.902,
+          "sunshineQuantiles": [
+            636.9304,
+            1749.7067,
+            1790.1882,
+            1800.5608,
+            1806.7152,
+            1811.2977,
+            1815.7095,
+            1820.2921,
+            1825.7258,
+            1833.8799,
+            1905.8608
+          ],
+          "groundAreaMeters2": 806.04
+        },
+        "center": {
+          "latitude": 37.335129599999995,
+          "longitude": -122.0111043
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3349531,
+            "longitude": -122.01125379999999
+          },
+          "ne": {
+            "latitude": 37.335307,
+            "longitude": -122.01095919999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.63824
+      },
+      {
+        "pitchDegrees": 7.6755295,
+        "azimuthDegrees": 126.6618,
+        "stats": {
+          "areaMeters2": 812.53,
+          "sunshineQuantiles": [
+            933.0178,
+            1826.7139,
+            1837.8961,
+            1843.89,
+            1848.7449,
+            1853.0895,
+            1857.4114,
+            1862.1549,
+            1867.8691,
+            1876.4172,
+            1980.4725
+          ],
+          "groundAreaMeters2": 805.25
+        },
+        "center": {
+          "latitude": 37.33363,
+          "longitude": -122.00703879999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3334102,
+            "longitude": -122.0072363
+          },
+          "ne": {
+            "latitude": 37.3337771,
+            "longitude": -122.0067914
+          }
+        },
+        "planeHeightAtCenterMeters": 68.49056
+      },
+      {
+        "pitchDegrees": 8.381819,
+        "azimuthDegrees": 350.9089,
+        "stats": {
+          "areaMeters2": 810.1232,
+          "sunshineQuantiles": [
+            360.8408,
+            1448.8735,
+            1575.469,
+            1614.4397,
+            1630.138,
+            1642.9486,
+            1654.7743,
+            1666.6156,
+            1678.9186,
+            1692.2863,
+            1947.804
+          ],
+          "groundAreaMeters2": 801.47
+        },
+        "center": {
+          "latitude": 37.333165699999995,
+          "longitude": -122.0087482
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3330572,
+            "longitude": -122.008985
+          },
+          "ne": {
+            "latitude": 37.333291599999995,
+            "longitude": -122.00843449999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.738556
+      },
+      {
+        "pitchDegrees": 7.519823,
+        "azimuthDegrees": 348.84268,
+        "stats": {
+          "areaMeters2": 807.93854,
+          "sunshineQuantiles": [
+            408.40192,
+            1525.6355,
+            1616.0305,
+            1631.2853,
+            1642.6627,
+            1653.4434,
+            1663.8892,
+            1673.5175,
+            1683.3226,
+            1694.1766,
+            1777.8242
+          ],
+          "groundAreaMeters2": 800.99
+        },
+        "center": {
+          "latitude": 37.3368141,
+          "longitude": -122.00947470000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3366846,
+            "longitude": -122.0097331
+          },
+          "ne": {
+            "latitude": 37.3369348,
+            "longitude": -122.00923890000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.55827
+      },
+      {
+        "pitchDegrees": 7.5099792,
+        "azimuthDegrees": 285.98462,
+        "stats": {
+          "areaMeters2": 805.0052,
+          "sunshineQuantiles": [
+            473.5607,
+            1535.2587,
+            1638.7213,
+            1667.0433,
+            1681.3292,
+            1691.7402,
+            1700.6803,
+            1708.5793,
+            1716.3821,
+            1725.4713,
+            1795.8564
+          ],
+          "groundAreaMeters2": 798.1
+        },
+        "center": {
+          "latitude": 37.3343767,
+          "longitude": -122.0069793
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3341928,
+            "longitude": -122.00715269999999
+          },
+          "ne": {
+            "latitude": 37.334691299999996,
+            "longitude": -122.00680750000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.55246
+      },
+      {
+        "pitchDegrees": 7.6806154,
+        "azimuthDegrees": 71.76897,
+        "stats": {
+          "areaMeters2": 790.54236,
+          "sunshineQuantiles": [
+            560.54944,
+            1659.8412,
+            1726.5853,
+            1743.7468,
+            1754.143,
+            1761.715,
+            1767.8987,
+            1773.4172,
+            1779.3142,
+            1786.7802,
+            1894.1727
+          ],
+          "groundAreaMeters2": 783.45
+        },
+        "center": {
+          "latitude": 37.335468,
+          "longitude": -122.006633
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3353075,
+            "longitude": -122.0068163
+          },
+          "ne": {
+            "latitude": 37.3356484,
+            "longitude": -122.0064563
+          }
+        },
+        "planeHeightAtCenterMeters": 68.475845
+      },
+      {
+        "pitchDegrees": 7.63114,
+        "azimuthDegrees": 101.261475,
+        "stats": {
+          "areaMeters2": 777.09235,
+          "sunshineQuantiles": [
+            819.55194,
+            1760.9452,
+            1794.4689,
+            1803.2352,
+            1808.0728,
+            1812.0508,
+            1815.9084,
+            1820.2135,
+            1826.084,
+            1835.0891,
+            1967.6006
+          ],
+          "groundAreaMeters2": 770.21
+        },
+        "center": {
+          "latitude": 37.3344715,
+          "longitude": -122.006566
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3343157,
+            "longitude": -122.0067357
+          },
+          "ne": {
+            "latitude": 37.334642699999996,
+            "longitude": -122.00641869999998
+          }
+        },
+        "planeHeightAtCenterMeters": 68.57391
+      },
+      {
+        "pitchDegrees": 8.017234,
+        "azimuthDegrees": 242.19894,
+        "stats": {
+          "areaMeters2": 767.65295,
+          "sunshineQuantiles": [
+            623.16064,
+            1653.5977,
+            1731.5143,
+            1754.1427,
+            1765.6239,
+            1773.8577,
+            1780.7976,
+            1787.6599,
+            1795.7106,
+            1807.2565,
+            1954.8408
+          ],
+          "groundAreaMeters2": 760.15
+        },
+        "center": {
+          "latitude": 37.335663499999995,
+          "longitude": -122.0071508
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3354241,
+            "longitude": -122.00739039999999
+          },
+          "ne": {
+            "latitude": 37.3358425,
+            "longitude": -122.00692219999998
+          }
+        },
+        "planeHeightAtCenterMeters": 68.50101
+      },
+      {
+        "pitchDegrees": 7.752115,
+        "azimuthDegrees": 86.9356,
+        "stats": {
+          "areaMeters2": 759.4103,
+          "sunshineQuantiles": [
+            812.4878,
+            1679.6134,
+            1753.7456,
+            1771.3888,
+            1781.134,
+            1788.2482,
+            1794.1653,
+            1799.887,
+            1806.6259,
+            1817.7699,
+            1982.1371
+          ],
+          "groundAreaMeters2": 752.47
+        },
+        "center": {
+          "latitude": 37.3347665,
+          "longitude": -122.01111799999998
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3345972,
+            "longitude": -122.0112642
+          },
+          "ne": {
+            "latitude": 37.3349736,
+            "longitude": -122.0109692
+          }
+        },
+        "planeHeightAtCenterMeters": 68.47775
+      },
+      {
+        "pitchDegrees": 7.736563,
+        "azimuthDegrees": 24.373909,
+        "stats": {
+          "areaMeters2": 728.52136,
+          "sunshineQuantiles": [
+            407.3328,
+            1504.206,
+            1632.1824,
+            1654.984,
+            1667.7015,
+            1678.614,
+            1688.719,
+            1698.8401,
+            1709.8198,
+            1724.0325,
+            1979.0089
+          ],
+          "groundAreaMeters2": 721.89
+        },
+        "center": {
+          "latitude": 37.3366635,
+          "longitude": -122.0079516
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3365048,
+            "longitude": -122.00814949999999
+          },
+          "ne": {
+            "latitude": 37.3368089,
+            "longitude": -122.0076771
+          }
+        },
+        "planeHeightAtCenterMeters": 68.524796
+      },
+      {
+        "pitchDegrees": 7.384566,
+        "azimuthDegrees": 137.08734,
+        "stats": {
+          "areaMeters2": 726.14276,
+          "sunshineQuantiles": [
+            460.87418,
+            1794.7438,
+            1830.6434,
+            1842.4626,
+            1849.8525,
+            1856.2445,
+            1862.1989,
+            1868.5989,
+            1876.3956,
+            1887.1647,
+            1979.5725
+          ],
+          "groundAreaMeters2": 720.12
+        },
+        "center": {
+          "latitude": 37.3333803,
+          "longitude": -122.00736829999998
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.333213199999996,
+            "longitude": -122.00759450000001
+          },
+          "ne": {
+            "latitude": 37.3336089,
+            "longitude": -122.0071604
+          }
+        },
+        "planeHeightAtCenterMeters": 68.75705
+      },
+      {
+        "pitchDegrees": 7.7052493,
+        "azimuthDegrees": 205.16225,
+        "stats": {
+          "areaMeters2": 724.6832,
+          "sunshineQuantiles": [
+            308.70453,
+            1784.6129,
+            1814.7885,
+            1824.4215,
+            1831.456,
+            1837.7904,
+            1843.5411,
+            1849.6202,
+            1856.9714,
+            1868.5073,
+            1966.6422
+          ],
+          "groundAreaMeters2": 718.14
+        },
+        "center": {
+          "latitude": 37.3363759,
+          "longitude": -122.0080536
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3362246,
+            "longitude": -122.00841279999999
+          },
+          "ne": {
+            "latitude": 37.3365361,
+            "longitude": -122.00779589999998
+          }
+        },
+        "planeHeightAtCenterMeters": 68.645226
+      },
+      {
+        "pitchDegrees": 7.6049833,
+        "azimuthDegrees": 80.487144,
+        "stats": {
+          "areaMeters2": 717.11774,
+          "sunshineQuantiles": [
+            565.4718,
+            1660.5984,
+            1743.7203,
+            1760.5754,
+            1770.1697,
+            1776.822,
+            1782.1951,
+            1787.1763,
+            1792.3726,
+            1800.0814,
+            1878.7351
+          ],
+          "groundAreaMeters2": 710.81
+        },
+        "center": {
+          "latitude": 37.3351672,
+          "longitude": -122.00655009999998
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.33500960000001,
+            "longitude": -122.0067096
+          },
+          "ne": {
+            "latitude": 37.335314,
+            "longitude": -122.00640419999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.55685
+      },
+      {
+        "pitchDegrees": 7.763563,
+        "azimuthDegrees": 74.04449,
+        "stats": {
+          "areaMeters2": 692.5277,
+          "sunshineQuantiles": [
+            632.802,
+            1648.6858,
+            1725.2614,
+            1744.1835,
+            1755.6978,
+            1764.815,
+            1772.8134,
+            1780.2976,
+            1788.1382,
+            1798.0984,
+            1981.8298
+          ],
+          "groundAreaMeters2": 686.18
+        },
+        "center": {
+          "latitude": 37.3344642,
+          "longitude": -122.0110735
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3343126,
+            "longitude": -122.01123399999999
+          },
+          "ne": {
+            "latitude": 37.3346038,
+            "longitude": -122.01088939999998
+          }
+        },
+        "planeHeightAtCenterMeters": 68.52032
+      },
+      {
+        "pitchDegrees": 7.482453,
+        "azimuthDegrees": 128.46371,
+        "stats": {
+          "areaMeters2": 685.20465,
+          "sunshineQuantiles": [
+            1128.8685,
+            1801.1207,
+            1829.8389,
+            1837.4575,
+            1843.469,
+            1849.489,
+            1855.4016,
+            1861.8262,
+            1869.0968,
+            1878.211,
+            1966.066
+          ],
+          "groundAreaMeters2": 679.37
+        },
+        "center": {
+          "latitude": 37.3359291,
+          "longitude": -122.01066709999998
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3357871,
+            "longitude": -122.0108963
+          },
+          "ne": {
+            "latitude": 37.3361018,
+            "longitude": -122.0104521
+          }
+        },
+        "planeHeightAtCenterMeters": 68.77009
+      },
+      {
+        "pitchDegrees": 7.34502,
+        "azimuthDegrees": 43.79039,
+        "stats": {
+          "areaMeters2": 664.86566,
+          "sunshineQuantiles": [
+            278.4241,
+            1578.617,
+            1654.0006,
+            1678.0254,
+            1695.0372,
+            1709.2592,
+            1722.252,
+            1735.0917,
+            1748.9615,
+            1766.6705,
+            1971.8678
+          ],
+          "groundAreaMeters2": 659.41
+        },
+        "center": {
+          "latitude": 37.3336606,
+          "longitude": -122.010479
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.33353640000001,
+            "longitude": -122.01067189999998
+          },
+          "ne": {
+            "latitude": 37.333824,
+            "longitude": -122.010228
+          }
+        },
+        "planeHeightAtCenterMeters": 68.30603
+      },
+      {
+        "pitchDegrees": 7.3748574,
+        "azimuthDegrees": 193.23048,
+        "stats": {
+          "areaMeters2": 660.8065,
+          "sunshineQuantiles": [
+            515.1371,
+            1823.4421,
+            1834.8914,
+            1842.1754,
+            1848.4979,
+            1854.1516,
+            1859.4833,
+            1864.5698,
+            1869.9182,
+            1876.74,
+            1958.93
+          ],
+          "groundAreaMeters2": 655.34
+        },
+        "center": {
+          "latitude": 37.332945599999995,
+          "longitude": -122.0095921
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3328187,
+            "longitude": -122.00982900000001
+          },
+          "ne": {
+            "latitude": 37.3330823,
+            "longitude": -122.00934600000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.8579
+      },
+      {
+        "pitchDegrees": 7.656384,
+        "azimuthDegrees": 225.59113,
+        "stats": {
+          "areaMeters2": 655.7864,
+          "sunshineQuantiles": [
+            311.44894,
+            1705.7386,
+            1761.0381,
+            1779.6378,
+            1790.8457,
+            1799.8619,
+            1808.6296,
+            1817.5817,
+            1827.1486,
+            1840.6882,
+            1963.8074
+          ],
+          "groundAreaMeters2": 649.94
+        },
+        "center": {
+          "latitude": 37.3335039,
+          "longitude": -122.01082419999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.333307399999995,
+            "longitude": -122.01105869999999
+          },
+          "ne": {
+            "latitude": 37.333692,
+            "longitude": -122.010653
+          }
+        },
+        "planeHeightAtCenterMeters": 68.53695
+      },
+      {
+        "pitchDegrees": 7.7554893,
+        "azimuthDegrees": 16.535593,
+        "stats": {
+          "areaMeters2": 651.60016,
+          "sunshineQuantiles": [
+            424.31018,
+            1492.5941,
+            1612.2035,
+            1638.1202,
+            1652.8348,
+            1665.3679,
+            1676.6702,
+            1688.4584,
+            1700.7751,
+            1715.9424,
+            1789.5802
+          ],
+          "groundAreaMeters2": 645.64
+        },
+        "center": {
+          "latitude": 37.3367617,
+          "longitude": -122.00827880000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3366165,
+            "longitude": -122.0084472
+          },
+          "ne": {
+            "latitude": 37.3368925,
+            "longitude": -122.00809369999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.56303
+      },
+      {
+        "pitchDegrees": 7.6909404,
+        "azimuthDegrees": 11.510193,
+        "stats": {
+          "areaMeters2": 650.95575,
+          "sunshineQuantiles": [
+            341.77438,
+            1478.8949,
+            1608.9661,
+            1637.0674,
+            1651.0114,
+            1662.3333,
+            1672.5565,
+            1683.4346,
+            1695.0852,
+            1709.3323,
+            1808.6251
+          ],
+          "groundAreaMeters2": 645.1
+        },
+        "center": {
+          "latitude": 37.333202199999995,
+          "longitude": -122.0094476
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3330795,
+            "longitude": -122.00961679999999
+          },
+          "ne": {
+            "latitude": 37.333332899999995,
+            "longitude": -122.0092693
+          }
+        },
+        "planeHeightAtCenterMeters": 68.58739
+      },
+      {
+        "pitchDegrees": 7.6649585,
+        "azimuthDegrees": 108.45767,
+        "stats": {
+          "areaMeters2": 643.54004,
+          "sunshineQuantiles": [
+            985.3321,
+            1786.5452,
+            1809.7943,
+            1816.0177,
+            1820.537,
+            1825.12,
+            1829.8284,
+            1835.1832,
+            1841.7598,
+            1850.5918,
+            1924.7485
+          ],
+          "groundAreaMeters2": 637.79
+        },
+        "center": {
+          "latitude": 37.3341928,
+          "longitude": -122.0066555
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3340369,
+            "longitude": -122.00682739999998
+          },
+          "ne": {
+            "latitude": 37.334323499999996,
+            "longitude": -122.00649069999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.513306
+      },
+      {
+        "pitchDegrees": 7.437057,
+        "azimuthDegrees": 176.21692,
+        "stats": {
+          "areaMeters2": 641.7486,
+          "sunshineQuantiles": [
+            491.8965,
+            1821.8717,
+            1841.6156,
+            1850.6644,
+            1858.728,
+            1866.4253,
+            1874.01,
+            1881.253,
+            1888.4167,
+            1902.4456,
+            1978.0189
+          ],
+          "groundAreaMeters2": 636.35
+        },
+        "center": {
+          "latitude": 37.336548,
+          "longitude": -122.0091181
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3364356,
+            "longitude": -122.0093131
+          },
+          "ne": {
+            "latitude": 37.336658199999995,
+            "longitude": -122.00877969999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.57933
+      },
+      {
+        "pitchDegrees": 7.2874885,
+        "azimuthDegrees": 118.18203,
+        "stats": {
+          "areaMeters2": 637.21735,
+          "sunshineQuantiles": [
+            1019.1513,
+            1764.8405,
+            1808.7343,
+            1821.92,
+            1828.1329,
+            1833.2827,
+            1838.1366,
+            1843.4595,
+            1850.0275,
+            1859.701,
+            1933.508
+          ],
+          "groundAreaMeters2": 632.07
+        },
+        "center": {
+          "latitude": 37.3339133,
+          "longitude": -122.00686119999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3337684,
+            "longitude": -122.00706459999999
+          },
+          "ne": {
+            "latitude": 37.3341317,
+            "longitude": -122.0067246
+          }
+        },
+        "planeHeightAtCenterMeters": 69.02136
+      },
+      {
+        "pitchDegrees": 0.24141762,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 629.8856,
+          "sunshineQuantiles": [
+            335.20398,
+            1510.8351,
+            1696.1716,
+            1736.2217,
+            1752.6533,
+            1763.5796,
+            1772.7443,
+            1783.2949,
+            1799.1682,
+            1823.2432,
+            1981.9917
+          ],
+          "groundAreaMeters2": 629.88
+        },
+        "center": {
+          "latitude": 37.333280699999996,
+          "longitude": -122.0078414
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.333091599999996,
+            "longitude": -122.00820560000001
+          },
+          "ne": {
+            "latitude": 37.3334968,
+            "longitude": -122.0074837
+          }
+        },
+        "planeHeightAtCenterMeters": 71.90145
+      },
+      {
+        "pitchDegrees": 1.2329863,
+        "azimuthDegrees": 71.33091,
+        "stats": {
+          "areaMeters2": 595.5479,
+          "sunshineQuantiles": [
+            641.12213,
+            1594.5613,
+            1723.0471,
+            1751.9393,
+            1766.5823,
+            1775.7853,
+            1782.7593,
+            1790.724,
+            1804.0123,
+            1830.5294,
+            1975.7714
+          ],
+          "groundAreaMeters2": 595.41
+        },
+        "center": {
+          "latitude": 37.3343282,
+          "longitude": -122.01119380000002
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.333993500000005,
+            "longitude": -122.0113545
+          },
+          "ne": {
+            "latitude": 37.3347129,
+            "longitude": -122.01099520000001
+          }
+        },
+        "planeHeightAtCenterMeters": 71.89076
+      },
+      {
+        "pitchDegrees": 7.5031157,
+        "azimuthDegrees": 295.44183,
+        "stats": {
+          "areaMeters2": 592.30145,
+          "sunshineQuantiles": [
+            509.20584,
+            1504.5663,
+            1624.6785,
+            1651.4899,
+            1665.6963,
+            1676.9436,
+            1685.9366,
+            1693.9517,
+            1701.3396,
+            1710.2085,
+            1776.3849
+          ],
+          "groundAreaMeters2": 587.23
+        },
+        "center": {
+          "latitude": 37.3357301,
+          "longitude": -122.01122960000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3355847,
+            "longitude": -122.0113731
+          },
+          "ne": {
+            "latitude": 37.3358579,
+            "longitude": -122.01103889999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.77004
+      },
+      {
+        "pitchDegrees": 7.6563873,
+        "azimuthDegrees": 64.94657,
+        "stats": {
+          "areaMeters2": 590.34296,
+          "sunshineQuantiles": [
+            428.61752,
+            1571.3289,
+            1690.4124,
+            1714.329,
+            1730.2981,
+            1741.9716,
+            1751.4574,
+            1759.3014,
+            1766.3296,
+            1774.5308,
+            1853.2146
+          ],
+          "groundAreaMeters2": 585.08
+        },
+        "center": {
+          "latitude": 37.3357323,
+          "longitude": -122.0067639
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3355789,
+            "longitude": -122.0069448
+          },
+          "ne": {
+            "latitude": 37.335924399999996,
+            "longitude": -122.00658250000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.47728
+      },
+      {
+        "pitchDegrees": 7.6362486,
+        "azimuthDegrees": 33.649307,
+        "stats": {
+          "areaMeters2": 589.0539,
+          "sunshineQuantiles": [
+            437.79318,
+            1516.6655,
+            1624.9794,
+            1649.7028,
+            1665.5048,
+            1679.8728,
+            1694.2813,
+            1710.0956,
+            1726.0376,
+            1742.6417,
+            1816.8508
+          ],
+          "groundAreaMeters2": 583.83
+        },
+        "center": {
+          "latitude": 37.3334494,
+          "longitude": -122.01022890000002
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3332753,
+            "longitude": -122.01043829999999
+          },
+          "ne": {
+            "latitude": 37.3335967,
+            "longitude": -122.01005029999997
+          }
+        },
+        "planeHeightAtCenterMeters": 68.85984
+      },
+      {
+        "pitchDegrees": 7.0594225,
+        "azimuthDegrees": 51.02147,
+        "stats": {
+          "areaMeters2": 577.0545,
+          "sunshineQuantiles": [
+            360.8539,
+            1667.033,
+            1692.4639,
+            1706.9775,
+            1719.5913,
+            1730.4193,
+            1739.7546,
+            1747.9369,
+            1755.5935,
+            1764.6355,
+            1949.6525
+          ],
+          "groundAreaMeters2": 572.68
+        },
+        "center": {
+          "latitude": 37.3361279,
+          "longitude": -122.00707249999998
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3359258,
+            "longitude": -122.0073782
+          },
+          "ne": {
+            "latitude": 37.336266099999996,
+            "longitude": -122.00688280000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.38963
+      },
+      {
+        "pitchDegrees": 7.533931,
+        "azimuthDegrees": 252.12967,
+        "stats": {
+          "areaMeters2": 572.49207,
+          "sunshineQuantiles": [
+            1012.0257,
+            1658.5947,
+            1717.6288,
+            1735.9966,
+            1745.6268,
+            1753.0338,
+            1759.7014,
+            1766.0734,
+            1773.1436,
+            1782.1381,
+            1873.9253
+          ],
+          "groundAreaMeters2": 567.55
+        },
+        "center": {
+          "latitude": 37.3353609,
+          "longitude": -122.0069708
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.335242799999996,
+            "longitude": -122.00714449999998
+          },
+          "ne": {
+            "latitude": 37.335498,
+            "longitude": -122.0068082
+          }
+        },
+        "planeHeightAtCenterMeters": 68.717964
+      },
+      {
+        "pitchDegrees": 6.9791865,
+        "azimuthDegrees": 56.6544,
+        "stats": {
+          "areaMeters2": 570.7189,
+          "sunshineQuantiles": [
+            929.1446,
+            1684.8987,
+            1708.335,
+            1723.087,
+            1734.2101,
+            1743.6787,
+            1752.1587,
+            1760.5367,
+            1769.5526,
+            1780.2614,
+            1879.9839
+          ],
+          "groundAreaMeters2": 566.49
+        },
+        "center": {
+          "latitude": 37.333975599999995,
+          "longitude": -122.0107469
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3337913,
+            "longitude": -122.01092249999999
+          },
+          "ne": {
+            "latitude": 37.3342001,
+            "longitude": -122.0105278
+          }
+        },
+        "planeHeightAtCenterMeters": 67.902054
+      },
+      {
+        "pitchDegrees": 7.647047,
+        "azimuthDegrees": 302.4491,
+        "stats": {
+          "areaMeters2": 560.414,
+          "sunshineQuantiles": [
+            494.70975,
+            1571.6487,
+            1637.264,
+            1651.7649,
+            1662.5728,
+            1671.9564,
+            1680.1616,
+            1688.2725,
+            1696.3029,
+            1705.4574,
+            1907.352
+          ],
+          "groundAreaMeters2": 555.43
+        },
+        "center": {
+          "latitude": 37.335947999999995,
+          "longitude": -122.01109919999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.335822799999995,
+            "longitude": -122.01129100000001
+          },
+          "ne": {
+            "latitude": 37.3361005,
+            "longitude": -122.01094879999998
+          }
+        },
+        "planeHeightAtCenterMeters": 68.52598
+      },
+      {
+        "pitchDegrees": 7.5828524,
+        "azimuthDegrees": 146.97716,
+        "stats": {
+          "areaMeters2": 555.6189,
+          "sunshineQuantiles": [
+            814.5204,
+            1847.4141,
+            1855.8302,
+            1861.5319,
+            1866.2594,
+            1870.4601,
+            1874.485,
+            1878.6293,
+            1883.6732,
+            1891.441,
+            1981.8711
+          ],
+          "groundAreaMeters2": 550.76
+        },
+        "center": {
+          "latitude": 37.3331887,
+          "longitude": -122.0076293
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3330262,
+            "longitude": -122.0077776
+          },
+          "ne": {
+            "latitude": 37.3333355,
+            "longitude": -122.0074349
+          }
+        },
+        "planeHeightAtCenterMeters": 68.43087
+      },
+      {
+        "pitchDegrees": 7.4131956,
+        "azimuthDegrees": 194.4245,
+        "stats": {
+          "areaMeters2": 546.3265,
+          "sunshineQuantiles": [
+            679.0995,
+            1821.4558,
+            1832.7217,
+            1840.1307,
+            1846.315,
+            1851.5796,
+            1856.5869,
+            1861.8817,
+            1867.7632,
+            1875.718,
+            1966.2471
+          ],
+          "groundAreaMeters2": 541.76
+        },
+        "center": {
+          "latitude": 37.3364937,
+          "longitude": -122.00845389999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3363702,
+            "longitude": -122.00864229999999
+          },
+          "ne": {
+            "latitude": 37.3366012,
+            "longitude": -122.00828939999998
+          }
+        },
+        "planeHeightAtCenterMeters": 68.60615
+      },
+      {
+        "pitchDegrees": 7.470319,
+        "azimuthDegrees": 275.26788,
+        "stats": {
+          "areaMeters2": 528.1427,
+          "sunshineQuantiles": [
+            542.00507,
+            1568.3473,
+            1656.7634,
+            1687.2316,
+            1700.5648,
+            1709.3247,
+            1716.1177,
+            1722.0956,
+            1728.2588,
+            1736.08,
+            1777.6151
+          ],
+          "groundAreaMeters2": 523.66
+        },
+        "center": {
+          "latitude": 37.3346715,
+          "longitude": -122.00688280000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3345438,
+            "longitude": -122.00703519999999
+          },
+          "ne": {
+            "latitude": 37.334816499999995,
+            "longitude": -122.00675729999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.78928
+      },
+      {
+        "pitchDegrees": 8.027335,
+        "azimuthDegrees": 168.6178,
+        "stats": {
+          "areaMeters2": 529.2458,
+          "sunshineQuantiles": [
+            1577.1561,
+            1847.5508,
+            1859.245,
+            1865.8035,
+            1870.8922,
+            1875.1172,
+            1879.1083,
+            1883.3613,
+            1888.9362,
+            1904.2501,
+            1982.2074
+          ],
+          "groundAreaMeters2": 524.06
+        },
+        "center": {
+          "latitude": 37.3328665,
+          "longitude": -122.00854
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.332781,
+            "longitude": -122.00877980000001
+          },
+          "ne": {
+            "latitude": 37.3329518,
+            "longitude": -122.00828659999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.01517
+      },
+      {
+        "pitchDegrees": 7.841749,
+        "azimuthDegrees": 89.372375,
+        "stats": {
+          "areaMeters2": 519.90173,
+          "sunshineQuantiles": [
+            510.78134,
+            1753.3823,
+            1780.334,
+            1788.4935,
+            1794.0143,
+            1798.3763,
+            1802.5035,
+            1806.9148,
+            1812.5374,
+            1823.0851,
+            1981.7031
+          ],
+          "groundAreaMeters2": 515.04
+        },
+        "center": {
+          "latitude": 37.3348303,
+          "longitude": -122.00646979999998
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.334635399999996,
+            "longitude": -122.0065768
+          },
+          "ne": {
+            "latitude": 37.335029,
+            "longitude": -122.00638539999998
+          }
+        },
+        "planeHeightAtCenterMeters": 67.94826
+      },
+      {
+        "pitchDegrees": 7.424768,
+        "azimuthDegrees": 343.80093,
+        "stats": {
+          "areaMeters2": 513.97955,
+          "sunshineQuantiles": [
+            636.18665,
+            1594.0881,
+            1622.7333,
+            1635.9067,
+            1646.7313,
+            1656.5962,
+            1665.5029,
+            1673.8379,
+            1682.7681,
+            1693.1715,
+            1774.1221
+          ],
+          "groundAreaMeters2": 509.67
+        },
+        "center": {
+          "latitude": 37.333242299999995,
+          "longitude": -122.0084289
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3331386,
+            "longitude": -122.0086509
+          },
+          "ne": {
+            "latitude": 37.3333564,
+            "longitude": -122.0082531
+          }
+        },
+        "planeHeightAtCenterMeters": 68.43096
+      },
+      {
+        "pitchDegrees": 7.919316,
+        "azimuthDegrees": 10.860426,
+        "stats": {
+          "areaMeters2": 510.89233,
+          "sunshineQuantiles": [
+            342.108,
+            1429.5895,
+            1591.7346,
+            1628.1875,
+            1643.9773,
+            1656.908,
+            1669.565,
+            1682.1652,
+            1695.0603,
+            1709.9509,
+            1773.1659
+          ],
+          "groundAreaMeters2": 506.02
+        },
+        "center": {
+          "latitude": 37.3368173,
+          "longitude": -122.008567
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.336695899999995,
+            "longitude": -122.0087509
+          },
+          "ne": {
+            "latitude": 37.3369266,
+            "longitude": -122.0084319
+          }
+        },
+        "planeHeightAtCenterMeters": 68.58296
+      },
+      {
+        "pitchDegrees": 7.4588675,
+        "azimuthDegrees": 120.2348,
+        "stats": {
+          "areaMeters2": 488.71533,
+          "sunshineQuantiles": [
+            1095.463,
+            1798.2534,
+            1824.3397,
+            1831.3224,
+            1836.0098,
+            1840.6483,
+            1845.594,
+            1851.7646,
+            1859.3257,
+            1869.5029,
+            1979.1716
+          ],
+          "groundAreaMeters2": 484.58
+        },
+        "center": {
+          "latitude": 37.335725,
+          "longitude": -122.01084130000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.335631,
+            "longitude": -122.01103609999998
+          },
+          "ne": {
+            "latitude": 37.335832499999995,
+            "longitude": -122.0106419
+          }
+        },
+        "planeHeightAtCenterMeters": 68.709724
+      },
+      {
+        "pitchDegrees": 7.53195,
+        "azimuthDegrees": 309.23627,
+        "stats": {
+          "areaMeters2": 487.09268,
+          "sunshineQuantiles": [
+            561.10583,
+            1549.0424,
+            1627.827,
+            1645.3922,
+            1656.178,
+            1664.4667,
+            1672.0046,
+            1679.6747,
+            1688.5997,
+            1699.9445,
+            1927.4783
+          ],
+          "groundAreaMeters2": 482.89
+        },
+        "center": {
+          "latitude": 37.3337887,
+          "longitude": -122.00737529999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3336775,
+            "longitude": -122.0075658
+          },
+          "ne": {
+            "latitude": 37.333910599999996,
+            "longitude": -122.0071734
+          }
+        },
+        "planeHeightAtCenterMeters": 68.470604
+      },
+      {
+        "pitchDegrees": 8.203801,
+        "azimuthDegrees": 168.52287,
+        "stats": {
+          "areaMeters2": 484.56873,
+          "sunshineQuantiles": [
+            465.9479,
+            1836.7284,
+            1856.6796,
+            1864.2687,
+            1870.1052,
+            1875.4554,
+            1880.3914,
+            1885.4336,
+            1890.7943,
+            1898.6687,
+            1981.9233
+          ],
+          "groundAreaMeters2": 479.61
+        },
+        "center": {
+          "latitude": 37.3329436,
+          "longitude": -122.008496
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3328385,
+            "longitude": -122.00879030000002
+          },
+          "ne": {
+            "latitude": 37.3330376,
+            "longitude": -122.0081613
+          }
+        },
+        "planeHeightAtCenterMeters": 68.97736
+      },
+      {
+        "pitchDegrees": 0.9546244,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 475.486,
+          "sunshineQuantiles": [
+            646.33374,
+            1520.4358,
+            1721.5964,
+            1749.813,
+            1762.9014,
+            1770.9158,
+            1778.1705,
+            1785.388,
+            1795.4526,
+            1817.0281,
+            1979.8582
+          ],
+          "groundAreaMeters2": 475.42
+        },
+        "center": {
+          "latitude": 37.3349477,
+          "longitude": -122.00671329999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.334718599999995,
+            "longitude": -122.00680369999998
+          },
+          "ne": {
+            "latitude": 37.3352021,
+            "longitude": -122.0066394
+          }
+        },
+        "planeHeightAtCenterMeters": 71.96589
+      },
+      {
+        "pitchDegrees": 0.87010497,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 450.82196,
+          "sunshineQuantiles": [
+            620.08936,
+            1473.3562,
+            1721.7537,
+            1755.3961,
+            1768.4364,
+            1775.941,
+            1782.1334,
+            1788.738,
+            1798.7104,
+            1819.0629,
+            1970.4554
+          ],
+          "groundAreaMeters2": 450.77
+        },
+        "center": {
+          "latitude": 37.3355258,
+          "longitude": -122.0068625
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3353006,
+            "longitude": -122.00700259999998
+          },
+          "ne": {
+            "latitude": 37.3357672,
+            "longitude": -122.00670869999999
+          }
+        },
+        "planeHeightAtCenterMeters": 71.96555
+      },
+      {
+        "pitchDegrees": 7.405391,
+        "azimuthDegrees": 187.93834,
+        "stats": {
+          "areaMeters2": 436.11765,
+          "sunshineQuantiles": [
+            457.406,
+            1833.9626,
+            1843.2097,
+            1850.4297,
+            1856.6102,
+            1862.0201,
+            1866.9408,
+            1871.9177,
+            1877.1984,
+            1885.0862,
+            1965.4875
+          ],
+          "groundAreaMeters2": 432.48
+        },
+        "center": {
+          "latitude": 37.3328801,
+          "longitude": -122.0093107
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.332788,
+            "longitude": -122.00953029999998
+          },
+          "ne": {
+            "latitude": 37.3329807,
+            "longitude": -122.00912149999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.525826
+      },
+      {
+        "pitchDegrees": 7.2024364,
+        "azimuthDegrees": 0.83040375,
+        "stats": {
+          "areaMeters2": 413.9463,
+          "sunshineQuantiles": [
+            260.56024,
+            1436.8685,
+            1564.9857,
+            1601.3512,
+            1628.0593,
+            1645.8379,
+            1660.4844,
+            1674.6158,
+            1689.7837,
+            1709.2236,
+            1955.4669
+          ],
+          "groundAreaMeters2": 410.68
+        },
+        "center": {
+          "latitude": 37.336799299999996,
+          "longitude": -122.00889350000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.336740999999996,
+            "longitude": -122.0091398
+          },
+          "ne": {
+            "latitude": 37.3368667,
+            "longitude": -122.00864720000001
+          }
+        },
+        "planeHeightAtCenterMeters": 69.181854
+      },
+      {
+        "pitchDegrees": 7.5402274,
+        "azimuthDegrees": 68.53094,
+        "stats": {
+          "areaMeters2": 407.49362,
+          "sunshineQuantiles": [
+            666.5168,
+            1664.8938,
+            1715.678,
+            1732.3771,
+            1744.2792,
+            1754.1677,
+            1762.7158,
+            1770.8812,
+            1779.646,
+            1790.7866,
+            1844.2214
+          ],
+          "groundAreaMeters2": 403.97
+        },
+        "center": {
+          "latitude": 37.3342534,
+          "longitude": -122.01098139999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.334145299999996,
+            "longitude": -122.01115150000001
+          },
+          "ne": {
+            "latitude": 37.3343643,
+            "longitude": -122.01082480000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.458206
+      },
+      {
+        "pitchDegrees": 0.8381105,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 397.94257,
+          "sunshineQuantiles": [
+            609.9956,
+            1457.0696,
+            1708.5648,
+            1745.5712,
+            1761.3214,
+            1770.8969,
+            1778.3164,
+            1785.266,
+            1795.5261,
+            1817.4907,
+            1980.6572
+          ],
+          "groundAreaMeters2": 397.9
+        },
+        "center": {
+          "latitude": 37.333838199999995,
+          "longitude": -122.01092140000002
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3336484,
+            "longitude": -122.0111129
+          },
+          "ne": {
+            "latitude": 37.3340259,
+            "longitude": -122.0106938
+          }
+        },
+        "planeHeightAtCenterMeters": 71.89691
+      },
+      {
+        "pitchDegrees": 7.539017,
+        "azimuthDegrees": 309.9836,
+        "stats": {
+          "areaMeters2": 394.13702,
+          "sunshineQuantiles": [
+            444.69183,
+            1495.9508,
+            1610.413,
+            1633.6514,
+            1648.4368,
+            1660.5596,
+            1671.1592,
+            1681.2662,
+            1691.3728,
+            1702.5042,
+            1814.4044
+          ],
+          "groundAreaMeters2": 390.73
+        },
+        "center": {
+          "latitude": 37.3361689,
+          "longitude": -122.01089759999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3360778,
+            "longitude": -122.01110140000002
+          },
+          "ne": {
+            "latitude": 37.336292799999995,
+            "longitude": -122.0107148
+          }
+        },
+        "planeHeightAtCenterMeters": 68.4535
+      },
+      {
+        "pitchDegrees": 7.459068,
+        "azimuthDegrees": 113.757805,
+        "stats": {
+          "areaMeters2": 390.07083,
+          "sunshineQuantiles": [
+            1194.6826,
+            1792.8114,
+            1818.5322,
+            1825.657,
+            1830.6128,
+            1835.1628,
+            1839.8378,
+            1845.0459,
+            1851.3496,
+            1860.1901,
+            1937.0618
+          ],
+          "groundAreaMeters2": 386.77
+        },
+        "center": {
+          "latitude": 37.3355618,
+          "longitude": -122.0109383
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3354742,
+            "longitude": -122.0111115
+          },
+          "ne": {
+            "latitude": 37.3356394,
+            "longitude": -122.01076289999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.59957
+      },
+      {
+        "pitchDegrees": 0.6290886,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 384.8032,
+          "sunshineQuantiles": [
+            429.11447,
+            1586.5994,
+            1720.9362,
+            1748.8083,
+            1763.4865,
+            1772.8079,
+            1780.6102,
+            1789.7012,
+            1802.7485,
+            1827.2136,
+            1968.1989
+          ],
+          "groundAreaMeters2": 384.78
+        },
+        "center": {
+          "latitude": 37.3335273,
+          "longitude": -122.01060149999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3333532,
+            "longitude": -122.01082099999998
+          },
+          "ne": {
+            "latitude": 37.3336675,
+            "longitude": -122.0104163
+          }
+        },
+        "planeHeightAtCenterMeters": 71.87971
+      },
+      {
+        "pitchDegrees": 0.31607512,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 370.49564,
+          "sunshineQuantiles": [
+            484.54816,
+            1510.7832,
+            1664.6094,
+            1707.6991,
+            1731.0433,
+            1747.6069,
+            1761.9642,
+            1775.775,
+            1793.5378,
+            1823.5211,
+            1976.1902
+          ],
+          "groundAreaMeters2": 370.49
+        },
+        "center": {
+          "latitude": 37.3330433,
+          "longitude": -122.0085568
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3329667,
+            "longitude": -122.008924
+          },
+          "ne": {
+            "latitude": 37.3331288,
+            "longitude": -122.00817710000001
+          }
+        },
+        "planeHeightAtCenterMeters": 71.96824
+      },
+      {
+        "pitchDegrees": 7.75551,
+        "azimuthDegrees": 173.43034,
+        "stats": {
+          "areaMeters2": 368.18784,
+          "sunshineQuantiles": [
+            499.86005,
+            1829.3109,
+            1848.2429,
+            1855.8392,
+            1862.0938,
+            1867.7135,
+            1873.5634,
+            1879.9431,
+            1887.511,
+            1901.174,
+            1979.5282
+          ],
+          "groundAreaMeters2": 364.82
+        },
+        "center": {
+          "latitude": 37.332862999999996,
+          "longitude": -122.0088798
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.332766899999996,
+            "longitude": -122.009096
+          },
+          "ne": {
+            "latitude": 37.332977,
+            "longitude": -122.00875469999998
+          }
+        },
+        "planeHeightAtCenterMeters": 68.494835
+      },
+      {
+        "pitchDegrees": 8.506226,
+        "azimuthDegrees": 230.79634,
+        "stats": {
+          "areaMeters2": 356.01627,
+          "sunshineQuantiles": [
+            877.9807,
+            1670.1953,
+            1747.9731,
+            1764.1295,
+            1774.1084,
+            1781.9458,
+            1789.145,
+            1796.977,
+            1805.8997,
+            1817.3772,
+            1936.0037
+          ],
+          "groundAreaMeters2": 352.1
+        },
+        "center": {
+          "latitude": 37.335942300000006,
+          "longitude": -122.00729620000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3358178,
+            "longitude": -122.00741350000001
+          },
+          "ne": {
+            "latitude": 37.3360951,
+            "longitude": -122.00712209999999
+          }
+        },
+        "planeHeightAtCenterMeters": 69.32533
+      },
+      {
+        "pitchDegrees": 8.13568,
+        "azimuthDegrees": 90.01577,
+        "stats": {
+          "areaMeters2": 349.17416,
+          "sunshineQuantiles": [
+            380.58548,
+            1566.6011,
+            1685.2325,
+            1736.6042,
+            1759.8058,
+            1773.6527,
+            1783.0524,
+            1791.402,
+            1799.8241,
+            1812.2391,
+            1973.29
+          ],
+          "groundAreaMeters2": 345.66
+        },
+        "center": {
+          "latitude": 37.3348052,
+          "longitude": -122.0065932
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3346184,
+            "longitude": -122.0066561
+          },
+          "ne": {
+            "latitude": 37.3350206,
+            "longitude": -122.00650399999999
+          }
+        },
+        "planeHeightAtCenterMeters": 69.37062
+      },
+      {
+        "pitchDegrees": 7.5213265,
+        "azimuthDegrees": 286.78036,
+        "stats": {
+          "areaMeters2": 347.22745,
+          "sunshineQuantiles": [
+            521.80176,
+            1615.8693,
+            1659.5596,
+            1674.7294,
+            1685.3018,
+            1692.9681,
+            1699.8806,
+            1706.4502,
+            1713.0841,
+            1721.4597,
+            1776.4927
+          ],
+          "groundAreaMeters2": 344.24
+        },
+        "center": {
+          "latitude": 37.3354527,
+          "longitude": -122.01136869999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3353111,
+            "longitude": -122.0115483
+          },
+          "ne": {
+            "latitude": 37.3355934,
+            "longitude": -122.01119249999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.73256
+      },
+      {
+        "pitchDegrees": 7.5333242,
+        "azimuthDegrees": 267.1796,
+        "stats": {
+          "areaMeters2": 331.91483,
+          "sunshineQuantiles": [
+            576.5289,
+            1519.5391,
+            1633.838,
+            1680.2914,
+            1708.3499,
+            1719.6526,
+            1728.4033,
+            1736.2999,
+            1744.779,
+            1756.5135,
+            1879.2145
+          ],
+          "groundAreaMeters2": 329.05
+        },
+        "center": {
+          "latitude": 37.334756899999995,
+          "longitude": -122.01148160000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3346454,
+            "longitude": -122.01161909999998
+          },
+          "ne": {
+            "latitude": 37.334908999999996,
+            "longitude": -122.01135380000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.7178
+      },
+      {
+        "pitchDegrees": 0.43063694,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 328.8693,
+          "sunshineQuantiles": [
+            409.5152,
+            1539.904,
+            1700.663,
+            1736.4921,
+            1752.5513,
+            1765.6636,
+            1776.364,
+            1786.7098,
+            1805.5393,
+            1833.0895,
+            1978.2754
+          ],
+          "groundAreaMeters2": 328.86
+        },
+        "center": {
+          "latitude": 37.333311699999996,
+          "longitude": -122.01025999999997
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3331806,
+            "longitude": -122.0104305
+          },
+          "ne": {
+            "latitude": 37.3334524,
+            "longitude": -122.01004660000001
+          }
+        },
+        "planeHeightAtCenterMeters": 71.92144
+      },
+      {
+        "pitchDegrees": 0.22313762,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 324.96246,
+          "sunshineQuantiles": [
+            308.19412,
+            1407.7043,
+            1652.3344,
+            1709.0815,
+            1736.1359,
+            1753.8643,
+            1767.3824,
+            1780.22,
+            1794.6052,
+            1816.2317,
+            1974.3206
+          ],
+          "groundAreaMeters2": 324.96
+        },
+        "center": {
+          "latitude": 37.3330198,
+          "longitude": -122.00909329999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3329705,
+            "longitude": -122.0094207
+          },
+          "ne": {
+            "latitude": 37.3330699,
+            "longitude": -122.00885509999999
+          }
+        },
+        "planeHeightAtCenterMeters": 71.96418
+      },
+      {
+        "pitchDegrees": 1.6128855,
+        "azimuthDegrees": 184.2271,
+        "stats": {
+          "areaMeters2": 318.74628,
+          "sunshineQuantiles": [
+            344.02292,
+            1383.0568,
+            1654.0061,
+            1712.1998,
+            1740.0109,
+            1758.0366,
+            1771.3435,
+            1784.3595,
+            1800.7129,
+            1830.1791,
+            1974.0159
+          ],
+          "groundAreaMeters2": 318.62
+        },
+        "center": {
+          "latitude": 37.3330628,
+          "longitude": -122.0094856
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3330026,
+            "longitude": -122.0096968
+          },
+          "ne": {
+            "latitude": 37.3331443,
+            "longitude": -122.00923789999999
+          }
+        },
+        "planeHeightAtCenterMeters": 71.87596
+      },
+      {
+        "pitchDegrees": 7.4496117,
+        "azimuthDegrees": 107.66683,
+        "stats": {
+          "areaMeters2": 320.10187,
+          "sunshineQuantiles": [
+            1212.3579,
+            1678.4714,
+            1789.2593,
+            1807.7513,
+            1815.8927,
+            1820.9543,
+            1825.6516,
+            1830.4518,
+            1836.0304,
+            1843.7455,
+            1880.6567
+          ],
+          "groundAreaMeters2": 317.4
+        },
+        "center": {
+          "latitude": 37.3353934,
+          "longitude": -122.01107259999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3353003,
+            "longitude": -122.0111872
+          },
+          "ne": {
+            "latitude": 37.3355003,
+            "longitude": -122.0109848
+          }
+        },
+        "planeHeightAtCenterMeters": 69.17408
+      },
+      {
+        "pitchDegrees": 7.6775036,
+        "azimuthDegrees": 354.79938,
+        "stats": {
+          "areaMeters2": 319.6454,
+          "sunshineQuantiles": [
+            383.9536,
+            1429.0742,
+            1575.9454,
+            1627.5638,
+            1642.0656,
+            1652.1859,
+            1662.2367,
+            1671.8519,
+            1681.9995,
+            1694.1614,
+            1969.0297
+          ],
+          "groundAreaMeters2": 316.78
+        },
+        "center": {
+          "latitude": 37.3368414,
+          "longitude": -122.00917740000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.336735399999995,
+            "longitude": -122.00929230000001
+          },
+          "ne": {
+            "latitude": 37.336944599999995,
+            "longitude": -122.00905809999998
+          }
+        },
+        "planeHeightAtCenterMeters": 68.61662
+      },
+      {
+        "pitchDegrees": 8.889959,
+        "azimuthDegrees": 289.13385,
+        "stats": {
+          "areaMeters2": 312.4839,
+          "sunshineQuantiles": [
+            871.63477,
+            1581.6493,
+            1643.7477,
+            1666.6793,
+            1679.9031,
+            1689.882,
+            1697.5891,
+            1704.5155,
+            1710.963,
+            1718.6349,
+            1782.469
+          ],
+          "groundAreaMeters2": 308.73
+        },
+        "center": {
+          "latitude": 37.335552299999996,
+          "longitude": -122.0114182
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.335388699999996,
+            "longitude": -122.0115281
+          },
+          "ne": {
+            "latitude": 37.335733,
+            "longitude": -122.0113091
+          }
+        },
+        "planeHeightAtCenterMeters": 67.67952
+      },
+      {
+        "pitchDegrees": 1.0171876,
+        "azimuthDegrees": 140.87286,
+        "stats": {
+          "areaMeters2": 289.3056,
+          "sunshineQuantiles": [
+            349.27292,
+            1472.2424,
+            1722.9426,
+            1753.6013,
+            1770.6843,
+            1781.113,
+            1789.0721,
+            1796.7404,
+            1806.9973,
+            1835.0164,
+            1981.6731
+          ],
+          "groundAreaMeters2": 289.26
+        },
+        "center": {
+          "latitude": 37.3364051,
+          "longitude": -122.01025109999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3362841,
+            "longitude": -122.0104236
+          },
+          "ne": {
+            "latitude": 37.3365124,
+            "longitude": -122.01005719999999
+          }
+        },
+        "planeHeightAtCenterMeters": 71.93278
+      },
+      {
+        "pitchDegrees": 7.923739,
+        "azimuthDegrees": 26.982319,
+        "stats": {
+          "areaMeters2": 284.6679,
+          "sunshineQuantiles": [
+            256.8552,
+            1350.606,
+            1542.2577,
+            1630.1803,
+            1656.282,
+            1672.8263,
+            1687.2671,
+            1702.6647,
+            1719.57,
+            1743.6261,
+            1969.4835
+          ],
+          "groundAreaMeters2": 281.95
+        },
+        "center": {
+          "latitude": 37.336548,
+          "longitude": -122.00772389999997
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3364411,
+            "longitude": -122.0078568
+          },
+          "ne": {
+            "latitude": 37.336657699999996,
+            "longitude": -122.0076057
+          }
+        },
+        "planeHeightAtCenterMeters": 68.71898
+      },
+      {
+        "pitchDegrees": 6.999027,
+        "azimuthDegrees": 273.07333,
+        "stats": {
+          "areaMeters2": 269.6292,
+          "sunshineQuantiles": [
+            552.20325,
+            1435.0889,
+            1556.4573,
+            1624.831,
+            1662.6403,
+            1686.3702,
+            1701.4626,
+            1711.5808,
+            1720.7706,
+            1731.9231,
+            1786.365
+          ],
+          "groundAreaMeters2": 267.62
+        },
+        "center": {
+          "latitude": 37.335267699999996,
+          "longitude": -122.0114524
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3348703,
+            "longitude": -122.0116252
+          },
+          "ne": {
+            "latitude": 37.3353912,
+            "longitude": -122.01129110000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.406075
+      },
+      {
+        "pitchDegrees": 7.0812054,
+        "azimuthDegrees": 312.7103,
+        "stats": {
+          "areaMeters2": 269.11267,
+          "sunshineQuantiles": [
+            251.18533,
+            1380.633,
+            1559.4769,
+            1614.6102,
+            1640.2347,
+            1658.3081,
+            1674.2007,
+            1688.2148,
+            1702.263,
+            1723.5923,
+            1926.4534
+          ],
+          "groundAreaMeters2": 267.06
+        },
+        "center": {
+          "latitude": 37.3362777,
+          "longitude": -122.0107517
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3361762,
+            "longitude": -122.01090250000001
+          },
+          "ne": {
+            "latitude": 37.3363857,
+            "longitude": -122.01062890000001
+          }
+        },
+        "planeHeightAtCenterMeters": 68.4932
+      },
+      {
+        "pitchDegrees": 1.0740194,
+        "azimuthDegrees": 222.92644,
+        "stats": {
+          "areaMeters2": 255.90495,
+          "sunshineQuantiles": [
+            482.1669,
+            1669.2988,
+            1734.6741,
+            1755.4523,
+            1768.1167,
+            1776.4199,
+            1782.5735,
+            1788.8992,
+            1798.7056,
+            1816.8081,
+            1896.0753
+          ],
+          "groundAreaMeters2": 255.86
+        },
+        "center": {
+          "latitude": 37.3358266,
+          "longitude": -122.0070494
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3356721,
+            "longitude": -122.0071637
+          },
+          "ne": {
+            "latitude": 37.3359533,
+            "longitude": -122.00694329999999
+          }
+        },
+        "planeHeightAtCenterMeters": 71.93418
+      },
+      {
+        "pitchDegrees": 8.08696,
+        "azimuthDegrees": 63.323357,
+        "stats": {
+          "areaMeters2": 257.32895,
+          "sunshineQuantiles": [
+            557.5305,
+            1527.4716,
+            1634.5463,
+            1681.6898,
+            1702.3977,
+            1717.0609,
+            1729.42,
+            1742.306,
+            1756.086,
+            1773.4729,
+            1885.0093
+          ],
+          "groundAreaMeters2": 254.77
+        },
+        "center": {
+          "latitude": 37.334081999999995,
+          "longitude": -122.01097240000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3339609,
+            "longitude": -122.0110953
+          },
+          "ne": {
+            "latitude": 37.3341971,
+            "longitude": -122.01087779999999
+          }
+        },
+        "planeHeightAtCenterMeters": 69.37455
+      },
+      {
+        "pitchDegrees": 9.164227,
+        "azimuthDegrees": 4.1044383,
+        "stats": {
+          "areaMeters2": 253.35384,
+          "sunshineQuantiles": [
+            386.2654,
+            1278.5282,
+            1440.2748,
+            1486.7389,
+            1558.2913,
+            1591.3314,
+            1618.3937,
+            1645.1313,
+            1670.754,
+            1698.7836,
+            1926.2568
+          ],
+          "groundAreaMeters2": 250.12
+        },
+        "center": {
+          "latitude": 37.3331066,
+          "longitude": -122.0091193
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3330616,
+            "longitude": -122.00932920000001
+          },
+          "ne": {
+            "latitude": 37.3331728,
+            "longitude": -122.00896100000001
+          }
+        },
+        "planeHeightAtCenterMeters": 69.40642
+      },
+      {
+        "pitchDegrees": 8.286523,
+        "azimuthDegrees": 56.366795,
+        "stats": {
+          "areaMeters2": 242.45126,
+          "sunshineQuantiles": [
+            311.47464,
+            1409.346,
+            1557.5537,
+            1639.6558,
+            1673.0819,
+            1695.134,
+            1710.8708,
+            1727.0563,
+            1743.8313,
+            1760.8849,
+            1971.6315
+          ],
+          "groundAreaMeters2": 239.92
+        },
+        "center": {
+          "latitude": 37.335924399999996,
+          "longitude": -122.00698939999998
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3358017,
+            "longitude": -122.00712809999999
+          },
+          "ne": {
+            "latitude": 37.3360657,
+            "longitude": -122.00681200000001
+          }
+        },
+        "planeHeightAtCenterMeters": 69.3631
+      },
+      {
+        "pitchDegrees": 8.105062,
+        "azimuthDegrees": 54.352745,
+        "stats": {
+          "areaMeters2": 238.88618,
+          "sunshineQuantiles": [
+            465.56635,
+            1454.3433,
+            1578.0984,
+            1632.9249,
+            1665.3215,
+            1685.9318,
+            1701.7435,
+            1716.2755,
+            1732.4117,
+            1753.4735,
+            1856.5652
+          ],
+          "groundAreaMeters2": 236.5
+        },
+        "center": {
+          "latitude": 37.3338536,
+          "longitude": -122.01081389999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.333707,
+            "longitude": -122.01095409999999
+          },
+          "ne": {
+            "latitude": 37.333966,
+            "longitude": -122.0106945
+          }
+        },
+        "planeHeightAtCenterMeters": 69.48908
+      },
+      {
+        "pitchDegrees": 7.311845,
+        "azimuthDegrees": 197.21504,
+        "stats": {
+          "areaMeters2": 233.78107,
+          "sunshineQuantiles": [
+            547.4373,
+            1817.3317,
+            1828.9255,
+            1836.1783,
+            1842.4072,
+            1848.1157,
+            1853.5583,
+            1858.9963,
+            1865.0529,
+            1873.0574,
+            1976.4573
+          ],
+          "groundAreaMeters2": 231.88
+        },
+        "center": {
+          "latitude": 37.3329764,
+          "longitude": -122.0098231
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3328625,
+            "longitude": -122.00992449999998
+          },
+          "ne": {
+            "latitude": 37.3331101,
+            "longitude": -122.00973499999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.54103
+      },
+      {
+        "pitchDegrees": 7.54238,
+        "azimuthDegrees": 343.2873,
+        "stats": {
+          "areaMeters2": 232.72353,
+          "sunshineQuantiles": [
+            606.7716,
+            1552.439,
+            1616.0067,
+            1630.1249,
+            1642.9935,
+            1653.9781,
+            1663.3025,
+            1672.2518,
+            1681.846,
+            1693.7576,
+            1766.9406
+          ],
+          "groundAreaMeters2": 230.71
+        },
+        "center": {
+          "latitude": 37.3367651,
+          "longitude": -122.00975190000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.336669799999996,
+            "longitude": -122.0098801
+          },
+          "ne": {
+            "latitude": 37.3368594,
+            "longitude": -122.00961799999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.511894
+      },
+      {
+        "pitchDegrees": 8.552904,
+        "azimuthDegrees": 107.70074,
+        "stats": {
+          "areaMeters2": 211.17851,
+          "sunshineQuantiles": [
+            637.8649,
+            1799.9674,
+            1817.2441,
+            1823.48,
+            1828.2622,
+            1832.8878,
+            1837.6984,
+            1843.2258,
+            1849.8651,
+            1859.8945,
+            1938.5613
+          ],
+          "groundAreaMeters2": 208.83
+        },
+        "center": {
+          "latitude": 37.3353707,
+          "longitude": -122.0109408
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3351325,
+            "longitude": -122.0109953
+          },
+          "ne": {
+            "latitude": 37.3354806,
+            "longitude": -122.01085529999999
+          }
+        },
+        "planeHeightAtCenterMeters": 67.57202
+      },
+      {
+        "pitchDegrees": 7.509919,
+        "azimuthDegrees": 264.47092,
+        "stats": {
+          "areaMeters2": 195.11363,
+          "sunshineQuantiles": [
+            1072.2609,
+            1672.95,
+            1712.0159,
+            1723.0375,
+            1730.0747,
+            1735.8893,
+            1741.2153,
+            1746.0576,
+            1751.195,
+            1757.7305,
+            1788.2842
+          ],
+          "groundAreaMeters2": 193.44
+        },
+        "center": {
+          "latitude": 37.3346507,
+          "longitude": -122.0115022
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3346003,
+            "longitude": -122.01161739999999
+          },
+          "ne": {
+            "latitude": 37.334733199999995,
+            "longitude": -122.0113505
+          }
+        },
+        "planeHeightAtCenterMeters": 68.35554
+      },
+      {
+        "pitchDegrees": 1.6642929,
+        "azimuthDegrees": 349.68375,
+        "stats": {
+          "areaMeters2": 192.45119,
+          "sunshineQuantiles": [
+            326.8052,
+            553.8776,
+            1604.8107,
+            1736.7789,
+            1762.6649,
+            1774.3267,
+            1782.8906,
+            1793.5922,
+            1814.2583,
+            1854.4554,
+            1977.5555
+          ],
+          "groundAreaMeters2": 192.37
+        },
+        "center": {
+          "latitude": 37.3330933,
+          "longitude": -122.00850650000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3330209,
+            "longitude": -122.00886129999999
+          },
+          "ne": {
+            "latitude": 37.3331824,
+            "longitude": -122.0081989
+          }
+        },
+        "planeHeightAtCenterMeters": 71.93444
+      },
+      {
+        "pitchDegrees": 6.936026,
+        "azimuthDegrees": 38.43224,
+        "stats": {
+          "areaMeters2": 193.18379,
+          "sunshineQuantiles": [
+            1368.315,
+            1662.4279,
+            1681.3193,
+            1695.5095,
+            1708.3394,
+            1719.154,
+            1729.1461,
+            1737.8931,
+            1746.0579,
+            1754.2814,
+            1813.3721
+          ],
+          "groundAreaMeters2": 191.77
+        },
+        "center": {
+          "latitude": 37.336440499999995,
+          "longitude": -122.00737769999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3363417,
+            "longitude": -122.00750819999999
+          },
+          "ne": {
+            "latitude": 37.3365556,
+            "longitude": -122.00725150000001
+          }
+        },
+        "planeHeightAtCenterMeters": 67.70459
+      },
+      {
+        "pitchDegrees": 7.1990333,
+        "azimuthDegrees": 307.05615,
+        "stats": {
+          "areaMeters2": 193.1325,
+          "sunshineQuantiles": [
+            517.45044,
+            1382.9299,
+            1523.5912,
+            1594.0632,
+            1626.8467,
+            1644.471,
+            1656.7186,
+            1667.8578,
+            1679.1661,
+            1693.5292,
+            1735.9965
+          ],
+          "groundAreaMeters2": 191.61
+        },
+        "center": {
+          "latitude": 37.336052,
+          "longitude": -122.01092729999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.335938899999995,
+            "longitude": -122.0110242
+          },
+          "ne": {
+            "latitude": 37.3361119,
+            "longitude": -122.01081880000001
+          }
+        },
+        "planeHeightAtCenterMeters": 69.28329
+      },
+      {
+        "pitchDegrees": 7.2468233,
+        "azimuthDegrees": 187.39427,
+        "stats": {
+          "areaMeters2": 191.27794,
+          "sunshineQuantiles": [
+            946.4061,
+            1829.1304,
+            1838.4479,
+            1845.7346,
+            1852.3165,
+            1858.2968,
+            1863.7834,
+            1869.7906,
+            1875.709,
+            1883.6421,
+            1971.1862
+          ],
+          "groundAreaMeters2": 189.75
+        },
+        "center": {
+          "latitude": 37.3364906,
+          "longitude": -122.0087305
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3364449,
+            "longitude": -122.00890659999997
+          },
+          "ne": {
+            "latitude": 37.3365493,
+            "longitude": -122.00859489999999
+          }
+        },
+        "planeHeightAtCenterMeters": 67.91604
+      },
+      {
+        "pitchDegrees": 7.6639624,
+        "azimuthDegrees": 57.902573,
+        "stats": {
+          "areaMeters2": 189.02853,
+          "sunshineQuantiles": [
+            494.38226,
+            1680.1979,
+            1707.9885,
+            1722.2167,
+            1733.3861,
+            1742.4136,
+            1750.9429,
+            1758.6777,
+            1766.6061,
+            1777.3364,
+            1976.168
+          ],
+          "groundAreaMeters2": 187.34
+        },
+        "center": {
+          "latitude": 37.3359593,
+          "longitude": -122.00685799999998
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.335877800000006,
+            "longitude": -122.0069273
+          },
+          "ne": {
+            "latitude": 37.336068499999996,
+            "longitude": -122.0067555
+          }
+        },
+        "planeHeightAtCenterMeters": 67.80763
+      },
+      {
+        "pitchDegrees": 1.3632151,
+        "azimuthDegrees": 82.48993,
+        "stats": {
+          "areaMeters2": 185.44249,
+          "sunshineQuantiles": [
+            311.45462,
+            1393.4064,
+            1678.8839,
+            1723.773,
+            1746.9978,
+            1762.7754,
+            1775.0767,
+            1786.8022,
+            1802.9415,
+            1829.8794,
+            1971.0981
+          ],
+          "groundAreaMeters2": 185.39
+        },
+        "center": {
+          "latitude": 37.3331285,
+          "longitude": -122.0098008
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3330559,
+            "longitude": -122.0099276
+          },
+          "ne": {
+            "latitude": 37.3332003,
+            "longitude": -122.0096887
+          }
+        },
+        "planeHeightAtCenterMeters": 71.76697
+      },
+      {
+        "pitchDegrees": 7.7976837,
+        "azimuthDegrees": 4.6651793,
+        "stats": {
+          "areaMeters2": 169.7597,
+          "sunshineQuantiles": [
+            344.3712,
+            1619.6261,
+            1637.7399,
+            1649.1915,
+            1658.3427,
+            1666.6372,
+            1675.7037,
+            1685.9193,
+            1699.0874,
+            1719.68,
+            1924.778
+          ],
+          "groundAreaMeters2": 168.19
+        },
+        "center": {
+          "latitude": 37.3331708,
+          "longitude": -122.0091466
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3331248,
+            "longitude": -122.00927759999999
+          },
+          "ne": {
+            "latitude": 37.3332084,
+            "longitude": -122.00897739999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.522964
+      },
+      {
+        "pitchDegrees": 7.0517726,
+        "azimuthDegrees": 186.94469,
+        "stats": {
+          "areaMeters2": 161.32028,
+          "sunshineQuantiles": [
+            1772.0834,
+            1835.5266,
+            1843.3607,
+            1849.633,
+            1855.1494,
+            1860.3607,
+            1865.7207,
+            1871.0378,
+            1876.8207,
+            1883.8685,
+            1932.2792
+          ],
+          "groundAreaMeters2": 160.1
+        },
+        "center": {
+          "latitude": 37.3365414,
+          "longitude": -122.0087671
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.336476399999995,
+            "longitude": -122.00892309999998
+          },
+          "ne": {
+            "latitude": 37.33659,
+            "longitude": -122.0085943
+          }
+        },
+        "planeHeightAtCenterMeters": 68.59599
+      },
+      {
+        "pitchDegrees": 7.3999243,
+        "azimuthDegrees": 49.182472,
+        "stats": {
+          "areaMeters2": 159.8816,
+          "sunshineQuantiles": [
+            370.3423,
+            1387.0504,
+            1555.0049,
+            1623.7041,
+            1661.9058,
+            1680.4258,
+            1694.5154,
+            1709.7694,
+            1726.3069,
+            1741.6631,
+            1803.6825
+          ],
+          "groundAreaMeters2": 158.55
+        },
+        "center": {
+          "latitude": 37.336100699999996,
+          "longitude": -122.0071643
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.33600680000001,
+            "longitude": -122.00728679999999
+          },
+          "ne": {
+            "latitude": 37.3361662,
+            "longitude": -122.00708159999999
+          }
+        },
+        "planeHeightAtCenterMeters": 69.521034
+      },
+      {
+        "pitchDegrees": 0.9657098,
+        "azimuthDegrees": 0,
+        "stats": {
+          "areaMeters2": 158.12247,
+          "sunshineQuantiles": [
+            395.41245,
+            1238.0619,
+            1678.7386,
+            1738.0947,
+            1754.0013,
+            1764.8121,
+            1775.39,
+            1786.0446,
+            1799.7351,
+            1825.8966,
+            1975.7776
+          ],
+          "groundAreaMeters2": 158.1
+        },
+        "center": {
+          "latitude": 37.3332105,
+          "longitude": -122.01001419999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3331206,
+            "longitude": -122.0101694
+          },
+          "ne": {
+            "latitude": 37.333310499999996,
+            "longitude": -122.00987909999999
+          }
+        },
+        "planeHeightAtCenterMeters": 71.96546
+      },
+      {
+        "pitchDegrees": 6.668903,
+        "azimuthDegrees": 189.72173,
+        "stats": {
+          "areaMeters2": 151.34401,
+          "sunshineQuantiles": [
+            571.9033,
+            1823.7103,
+            1836.6003,
+            1844.9187,
+            1852.004,
+            1858.5854,
+            1865.4033,
+            1871.9355,
+            1879.2574,
+            1889.3018,
+            1940.7678
+          ],
+          "groundAreaMeters2": 150.32
+        },
+        "center": {
+          "latitude": 37.3365898,
+          "longitude": -122.00873600000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.336536699999996,
+            "longitude": -122.00891669999999
+          },
+          "ne": {
+            "latitude": 37.336625999999995,
+            "longitude": -122.00847530000001
+          }
+        },
+        "planeHeightAtCenterMeters": 69.3697
+      },
+      {
+        "pitchDegrees": 7.6654234,
+        "azimuthDegrees": 27.584898,
+        "stats": {
+          "areaMeters2": 144.90488,
+          "sunshineQuantiles": [
+            870.14813,
+            1614.5881,
+            1648.5656,
+            1665.4498,
+            1679.1453,
+            1691.5406,
+            1703.7542,
+            1716.2927,
+            1728.907,
+            1743.4883,
+            1837.8029
+          ],
+          "groundAreaMeters2": 143.61
+        },
+        "center": {
+          "latitude": 37.3334152,
+          "longitude": -122.01002159999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3333355,
+            "longitude": -122.01008759999999
+          },
+          "ne": {
+            "latitude": 37.3334901,
+            "longitude": -122.00991630000001
+          }
+        },
+        "planeHeightAtCenterMeters": 67.990746
+      },
+      {
+        "pitchDegrees": 7.141812,
+        "azimuthDegrees": 231.66473,
+        "stats": {
+          "areaMeters2": 143.7251,
+          "sunshineQuantiles": [
+            1690.1853,
+            1774.4023,
+            1782.9023,
+            1788.6652,
+            1793.6498,
+            1798.2587,
+            1803.3107,
+            1809.7562,
+            1816.9615,
+            1826.6375,
+            1886.2029
+          ],
+          "groundAreaMeters2": 142.61
+        },
+        "center": {
+          "latitude": 37.3358681,
+          "longitude": -122.007375
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.33580990000001,
+            "longitude": -122.00748700000001
+          },
+          "ne": {
+            "latitude": 37.3359245,
+            "longitude": -122.0072598
+          }
+        },
+        "planeHeightAtCenterMeters": 67.9535
+      },
+      {
+        "pitchDegrees": 27.787312,
+        "azimuthDegrees": 215.05736,
+        "stats": {
+          "areaMeters2": 152.74376,
+          "sunshineQuantiles": [
+            540.485,
+            1005.2238,
+            1305.398,
+            1617.7532,
+            1753.7118,
+            1792.6477,
+            1811.6858,
+            1828.4292,
+            1842.5476,
+            1858.0115,
+            1953.0887
+          ],
+          "groundAreaMeters2": 135.13
+        },
+        "center": {
+          "latitude": 37.3331519,
+          "longitude": -122.0105466
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3330068,
+            "longitude": -122.01079729999998
+          },
+          "ne": {
+            "latitude": 37.3333157,
+            "longitude": -122.01027979999998
+          }
+        },
+        "planeHeightAtCenterMeters": 65.24797
+      },
+      {
+        "pitchDegrees": 1.1571977,
+        "azimuthDegrees": 294.4131,
+        "stats": {
+          "areaMeters2": 133.35721,
+          "sunshineQuantiles": [
+            373.29153,
+            1695.6742,
+            1735.9283,
+            1749.483,
+            1758.2325,
+            1765.1064,
+            1772.1816,
+            1780.0643,
+            1790.51,
+            1811.2375,
+            1980.6882
+          ],
+          "groundAreaMeters2": 133.33
+        },
+        "center": {
+          "latitude": 37.3335009,
+          "longitude": -122.00745140000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.333422399999996,
+            "longitude": -122.00753759999999
+          },
+          "ne": {
+            "latitude": 37.3335724,
+            "longitude": -122.007381
+          }
+        },
+        "planeHeightAtCenterMeters": 71.97344
+      },
+      {
+        "pitchDegrees": 6.72723,
+        "azimuthDegrees": 274.85876,
+        "stats": {
+          "areaMeters2": 132.74393,
+          "sunshineQuantiles": [
+            525.676,
+            1611.8322,
+            1676.6746,
+            1703.2102,
+            1715.949,
+            1724.7815,
+            1731.3452,
+            1737.6477,
+            1744.9257,
+            1755.6431,
+            1873.5046
+          ],
+          "groundAreaMeters2": 131.83
+        },
+        "center": {
+          "latitude": 37.334772300000004,
+          "longitude": -122.00697179999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3346713,
+            "longitude": -122.00701319999999
+          },
+          "ne": {
+            "latitude": 37.3348794,
+            "longitude": -122.00690659999998
+          }
+        },
+        "planeHeightAtCenterMeters": 67.58902
+      },
+      {
+        "pitchDegrees": 36.682137,
+        "azimuthDegrees": 350.25272,
+        "stats": {
+          "areaMeters2": 159.07239,
+          "sunshineQuantiles": [
+            247.10007,
+            299.7744,
+            457.22314,
+            1011.7133,
+            1046.5288,
+            1068.448,
+            1087.3927,
+            1109.0631,
+            1137.8397,
+            1174.4022,
+            1648.5569
+          ],
+          "groundAreaMeters2": 127.57
+        },
+        "center": {
+          "latitude": 37.3369344,
+          "longitude": -122.00941890000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.336880799999996,
+            "longitude": -122.00964030000002
+          },
+          "ne": {
+            "latitude": 37.3369746,
+            "longitude": -122.0092045
+          }
+        },
+        "planeHeightAtCenterMeters": 65.46827
+      },
+      {
+        "pitchDegrees": 36.677334,
+        "azimuthDegrees": 130.74628,
+        "stats": {
+          "areaMeters2": 157.97769,
+          "sunshineQuantiles": [
+            403.47754,
+            1220.2156,
+            1797.5509,
+            1854.6271,
+            1876.0701,
+            1888.783,
+            1898.6985,
+            1907.0681,
+            1913.8822,
+            1921.4786,
+            1979.2247
+          ],
+          "groundAreaMeters2": 126.7
+        },
+        "center": {
+          "latitude": 37.3334677,
+          "longitude": -122.0070386
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3333461,
+            "longitude": -122.007209
+          },
+          "ne": {
+            "latitude": 37.333610199999995,
+            "longitude": -122.00688389999999
+          }
+        },
+        "planeHeightAtCenterMeters": 65.65626
+      },
+      {
+        "pitchDegrees": 8.798896,
+        "azimuthDegrees": 121.470695,
+        "stats": {
+          "areaMeters2": 128.0267,
+          "sunshineQuantiles": [
+            1642.5614,
+            1811.3197,
+            1828.618,
+            1835.1108,
+            1840.8433,
+            1847.1382,
+            1853.5426,
+            1860.4507,
+            1869.2351,
+            1882.6694,
+            1977.6934
+          ],
+          "groundAreaMeters2": 126.52
+        },
+        "center": {
+          "latitude": 37.3338816,
+          "longitude": -122.00673520000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3336822,
+            "longitude": -122.00685460000001
+          },
+          "ne": {
+            "latitude": 37.3339722,
+            "longitude": -122.00665330000001
+          }
+        },
+        "planeHeightAtCenterMeters": 67.4573
+      },
+      {
+        "pitchDegrees": 42.756306,
+        "azimuthDegrees": 189.85529,
+        "stats": {
+          "areaMeters2": 169.28891,
+          "sunshineQuantiles": [
+            340.63132,
+            1145.7571,
+            1665.352,
+            1787.1033,
+            1821.1019,
+            1849.6736,
+            1875.3363,
+            1895.4159,
+            1911.694,
+            1927.9938,
+            1972.061
+          ],
+          "groundAreaMeters2": 124.3
+        },
+        "center": {
+          "latitude": 37.336417,
+          "longitude": -122.0086536
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.336374299999996,
+            "longitude": -122.00886799999999
+          },
+          "ne": {
+            "latitude": 37.3364517,
+            "longitude": -122.00844939999999
+          }
+        },
+        "planeHeightAtCenterMeters": 65.87512
+      },
+      {
+        "pitchDegrees": 8.086741,
+        "azimuthDegrees": 170.7925,
+        "stats": {
+          "areaMeters2": 124.417175,
+          "sunshineQuantiles": [
+            1183.367,
+            1832.9722,
+            1849.685,
+            1857.4009,
+            1864.0961,
+            1869.7186,
+            1875.0022,
+            1880.5319,
+            1887.563,
+            1897.8202,
+            1978.7838
+          ],
+          "groundAreaMeters2": 123.18
+        },
+        "center": {
+          "latitude": 37.3328687,
+          "longitude": -122.0091269
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3327695,
+            "longitude": -122.0092089
+          },
+          "ne": {
+            "latitude": 37.3329753,
+            "longitude": -122.00907079999999
+          }
+        },
+        "planeHeightAtCenterMeters": 68.53895
+      },
+      {
+        "pitchDegrees": 35.74354,
+        "azimuthDegrees": 3.0141413,
+        "stats": {
+          "areaMeters2": 150.57172,
+          "sunshineQuantiles": [
+            240.74438,
+            299.0026,
+            739.1886,
+            996.73785,
+            1044.076,
+            1074.7811,
+            1104.7213,
+            1131.0424,
+            1159.7631,
+            1196.3162,
+            1640.9678
+          ],
+          "groundAreaMeters2": 122.21
+        },
+        "center": {
+          "latitude": 37.3332842,
+          "longitude": -122.0091226
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.333261199999995,
+            "longitude": -122.0093548
+          },
+          "ne": {
+            "latitude": 37.333317199999996,
+            "longitude": -122.00890829999999
+          }
+        },
+        "planeHeightAtCenterMeters": 65.44005
+      },
+      {
+        "pitchDegrees": 37.272034,
+        "azimuthDegrees": 304.98737,
+        "stats": {
+          "areaMeters2": 152.34317,
+          "sunshineQuantiles": [
+            238.90712,
+            590.54724,
+            991.1724,
+            1107.0022,
+            1150.5676,
+            1186.4475,
+            1216.2098,
+            1247.9557,
+            1282.7615,
+            1331.4744,
+            1916.2067
+          ],
+          "groundAreaMeters2": 121.23
+        },
+        "center": {
+          "latitude": 37.3360845,
+          "longitude": -122.0111459
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.335936,
+            "longitude": -122.0112782
+          },
+          "ne": {
+            "latitude": 37.3362537,
+            "longitude": -122.01100319999999
+          }
+        },
+        "planeHeightAtCenterMeters": 65.48876
+      },
+      {
+        "pitchDegrees": 26.314209,
+        "azimuthDegrees": 359.77258,
+        "stats": {
+          "areaMeters2": 134.73132,
+          "sunshineQuantiles": [
+            243.11885,
+            309.02182,
+            832.00073,
+            1006.7961,
+            1219.2413,
+            1245.458,
+            1264.2953,
+            1284.3966,
+            1307.2919,
+            1336.193,
+            1621.4738
+          ],
+          "groundAreaMeters2": 120.77
+        },
+        "center": {
+          "latitude": 37.3369597,
+          "longitude": -122.0089874
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3369375,
+            "longitude": -122.00920719999998
+          },
+          "ne": {
+            "latitude": 37.3369773,
+            "longitude": -122.00876419999999
+          }
+        },
+        "planeHeightAtCenterMeters": 65.577736
+      },
+      {
+        "pitchDegrees": 34.401848,
+        "azimuthDegrees": 260.2857,
+        "stats": {
+          "areaMeters2": 145.29231,
+          "sunshineQuantiles": [
+            332.5244,
+            1280.7119,
+            1443.5096,
+            1495.2692,
+            1522.9276,
+            1543.5964,
+            1564.2721,
+            1588.3115,
+            1619.8915,
+            1669.1278,
+            1832.3561
+          ],
+          "groundAreaMeters2": 119.88
+        },
+        "center": {
+          "latitude": 37.3345281,
+          "longitude": -122.01160089999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.33433610000001,
+            "longitude": -122.011657
+          },
+          "ne": {
+            "latitude": 37.3347155,
+            "longitude": -122.0115426
+          }
+        },
+        "planeHeightAtCenterMeters": 65.888336
+      },
+      {
+        "pitchDegrees": 7.3139005,
+        "azimuthDegrees": 275.22266,
+        "stats": {
+          "areaMeters2": 116.01394,
+          "sunshineQuantiles": [
+            250.4498,
+            1439.1401,
+            1571.979,
+            1619.7233,
+            1651.2223,
+            1674.7585,
+            1696.307,
+            1715.2762,
+            1734.0713,
+            1760.2391,
+            1933.7385
+          ],
+          "groundAreaMeters2": 115.07
+        },
+        "center": {
+          "latitude": 37.3348497,
+          "longitude": -122.01148040000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3348052,
+            "longitude": -122.01158649999999
+          },
+          "ne": {
+            "latitude": 37.3349196,
+            "longitude": -122.0113875
+          }
+        },
+        "planeHeightAtCenterMeters": 68.461296
+      },
+      {
+        "pitchDegrees": 31.389889,
+        "azimuthDegrees": 337.52942,
+        "stats": {
+          "areaMeters2": 132.25673,
+          "sunshineQuantiles": [
+            238.86217,
+            318.68512,
+            837.6866,
+            1003.58765,
+            1098.3286,
+            1130.468,
+            1153.8649,
+            1178.4688,
+            1205.0115,
+            1238.1104,
+            1667.348
+          ],
+          "groundAreaMeters2": 112.9
+        },
+        "center": {
+          "latitude": 37.33680590000001,
+          "longitude": -122.00999409999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3367235,
+            "longitude": -122.0102011
+          },
+          "ne": {
+            "latitude": 37.336880099999995,
+            "longitude": -122.00978709999998
+          }
+        },
+        "planeHeightAtCenterMeters": 65.554825
+      },
+      {
+        "pitchDegrees": 21.101582,
+        "azimuthDegrees": 345.06763,
+        "stats": {
+          "areaMeters2": 120.23235,
+          "sunshineQuantiles": [
+            240.9805,
+            579.55206,
+            863.12524,
+            1183.1989,
+            1268.0366,
+            1298.3156,
+            1326.7776,
+            1355.3535,
+            1394.357,
+            1477.301,
+            1680.8499
+          ],
+          "groundAreaMeters2": 112.17
+        },
+        "center": {
+          "latitude": 37.3333313,
+          "longitude": -122.00851130000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3332832,
+            "longitude": -122.0087167
+          },
+          "ne": {
+            "latitude": 37.3333975,
+            "longitude": -122.0083033
+          }
+        },
+        "planeHeightAtCenterMeters": 65.54566
+      },
+      {
+        "pitchDegrees": 26.495398,
+        "azimuthDegrees": 23.896673,
+        "stats": {
+          "areaMeters2": 124.58516,
+          "sunshineQuantiles": [
+            250.26596,
+            796.99725,
+            987.7837,
+            1272.0919,
+            1314.3672,
+            1335.2509,
+            1352.7626,
+            1369.8402,
+            1391.8792,
+            1438.8184,
+            1654.5172
+          ],
+          "groundAreaMeters2": 111.5
+        },
+        "center": {
+          "latitude": 37.3367686,
+          "longitude": -122.00791519999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3366835,
+            "longitude": -122.00812459999999
+          },
+          "ne": {
+            "latitude": 37.336849199999996,
+            "longitude": -122.00770480000001
+          }
+        },
+        "planeHeightAtCenterMeters": 65.645966
+      },
+      {
+        "pitchDegrees": 7.2652683,
+        "azimuthDegrees": 201.04039,
+        "stats": {
+          "areaMeters2": 111.848,
+          "sunshineQuantiles": [
+            1757.1005,
+            1820.5035,
+            1828.9336,
+            1835.311,
+            1840.5458,
+            1845.7576,
+            1850.7723,
+            1855.8405,
+            1861.288,
+            1869.0717,
+            1948.334
+          ],
+          "groundAreaMeters2": 110.95
+        },
+        "center": {
+          "latitude": 37.3363994,
+          "longitude": -122.00827790000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3363362,
+            "longitude": -122.00834359999999
+          },
+          "ne": {
+            "latitude": 37.3364635,
+            "longitude": -122.00821219999999
+          }
+        },
+        "planeHeightAtCenterMeters": 67.93203
+      },
+      {
+        "pitchDegrees": 1.819767,
+        "azimuthDegrees": 193.03648,
+        "stats": {
+          "areaMeters2": 105.16303,
+          "sunshineQuantiles": [
+            1463.8878,
+            1768.1842,
+            1821.2864,
+            1851.4834,
+            1877.8071,
+            1900.4156,
+            1916.232,
+            1926.6519,
+            1935.5632,
+            1946.743,
+            1973.9868
+          ],
+          "groundAreaMeters2": 105.11
+        },
+        "center": {
+          "latitude": 37.332844099999996,
+          "longitude": -122.00963519999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3327721,
+            "longitude": -122.01006100000001
+          },
+          "ne": {
+            "latitude": 37.332949,
+            "longitude": -122.0091559
+          }
+        },
+        "planeHeightAtCenterMeters": 66.94081
+      },
+      {
+        "pitchDegrees": 8.318651,
+        "azimuthDegrees": 107.48183,
+        "stats": {
+          "areaMeters2": 105.07553,
+          "sunshineQuantiles": [
+            1633.2521,
+            1813.8524,
+            1821.7131,
+            1826.5889,
+            1831.0936,
+            1835.7539,
+            1841.0924,
+            1847.0922,
+            1854.5642,
+            1866.0864,
+            1977.5404
+          ],
+          "groundAreaMeters2": 103.97
+        },
+        "center": {
+          "latitude": 37.3340226,
+          "longitude": -122.00667010000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.333965299999996,
+            "longitude": -122.0067437
+          },
+          "ne": {
+            "latitude": 37.33412,
+            "longitude": -122.0065611
+          }
+        },
+        "planeHeightAtCenterMeters": 67.7158
+      },
+      {
+        "pitchDegrees": 34.392136,
+        "azimuthDegrees": 220.87558,
+        "stats": {
+          "areaMeters2": 125.13467,
+          "sunshineQuantiles": [
+            315.58008,
+            989.07806,
+            1388.1053,
+            1673.8918,
+            1733.0526,
+            1756.3815,
+            1773.8169,
+            1786.8328,
+            1800.0698,
+            1815.1252,
+            1880.3809
+          ],
+          "groundAreaMeters2": 103.26
+        },
+        "center": {
+          "latitude": 37.3360367,
+          "longitude": -122.0076991
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3359205,
+            "longitude": -122.00787500000001
+          },
+          "ne": {
+            "latitude": 37.3361396,
+            "longitude": -122.00754479999999
+          }
+        },
+        "planeHeightAtCenterMeters": 65.381584
+      },
+      {
+        "pitchDegrees": 36.03229,
+        "azimuthDegrees": 234.30438,
+        "stats": {
+          "areaMeters2": 127.21879,
+          "sunshineQuantiles": [
+            387.17004,
+            966.3554,
+            1499.2473,
+            1627.8033,
+            1668.5477,
+            1689.7832,
+            1704.396,
+            1718.5233,
+            1731.9265,
+            1750.1144,
+            1869.2192
+          ],
+          "groundAreaMeters2": 102.88
+        },
+        "center": {
+          "latitude": 37.3357855,
+          "longitude": -122.00741230000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3356615,
+            "longitude": -122.00753069999998
+          },
+          "ne": {
+            "latitude": 37.3359068,
+            "longitude": -122.00729390000001
+          }
+        },
+        "planeHeightAtCenterMeters": 65.36728
+      },
+      {
+        "pitchDegrees": 37.431038,
+        "azimuthDegrees": 237.21173,
+        "stats": {
+          "areaMeters2": 128.84003,
+          "sunshineQuantiles": [
+            380.74805,
+            924.47003,
+            1394.1008,
+            1497.7703,
+            1598.1278,
+            1637.8524,
+            1661.4514,
+            1680.385,
+            1696.9426,
+            1715.4579,
+            1877.9998
+          ],
+          "groundAreaMeters2": 102.31
+        },
+        "center": {
+          "latitude": 37.333731799999995,
+          "longitude": -122.0112332
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3335861,
+            "longitude": -122.0113542
+          },
+          "ne": {
+            "latitude": 37.3338837,
+            "longitude": -122.011102
+          }
+        },
+        "planeHeightAtCenterMeters": 65.325455
+      },
+      {
+        "pitchDegrees": 29.77271,
+        "azimuthDegrees": 16.40126,
+        "stats": {
+          "areaMeters2": 114.34305,
+          "sunshineQuantiles": [
+            241.75334,
+            345.59467,
+            933.4098,
+            1077.1024,
+            1208.376,
+            1233.4458,
+            1248.4989,
+            1261.401,
+            1275.6556,
+            1299.9836,
+            1647.1566
+          ],
+          "groundAreaMeters2": 99.25
+        },
+        "center": {
+          "latitude": 37.333347499999995,
+          "longitude": -122.00957779999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.333299499999995,
+            "longitude": -122.009755
+          },
+          "ne": {
+            "latitude": 37.3334062,
+            "longitude": -122.00939249999999
+          }
+        },
+        "planeHeightAtCenterMeters": 65.554535
+      },
+      {
+        "pitchDegrees": 37.54916,
+        "azimuthDegrees": 248.58118,
+        "stats": {
+          "areaMeters2": 124.11224,
+          "sunshineQuantiles": [
+            396.89038,
+            867.2794,
+            970.5454,
+            1473.8555,
+            1532.1372,
+            1562.7155,
+            1588.0754,
+            1611.1979,
+            1636.1018,
+            1662.8387,
+            1849.6346
+          ],
+          "groundAreaMeters2": 98.4
+        },
+        "center": {
+          "latitude": 37.3354302,
+          "longitude": -122.0071697
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3352903,
+            "longitude": -122.00725899999999
+          },
+          "ne": {
+            "latitude": 37.335561999999996,
+            "longitude": -122.00709520000001
+          }
+        },
+        "planeHeightAtCenterMeters": 65.35308
+      },
+      {
+        "pitchDegrees": 7.4500904,
+        "azimuthDegrees": 311.31683,
+        "stats": {
+          "areaMeters2": 98.48136,
+          "sunshineQuantiles": [
+            479.5739,
+            1233.0873,
+            1425.0393,
+            1531.6835,
+            1579.116,
+            1616.3297,
+            1639.5461,
+            1652.6831,
+            1665.8855,
+            1683.5033,
+            1902.7532
+          ],
+          "groundAreaMeters2": 97.65
+        },
+        "center": {
+          "latitude": 37.3336743,
+          "longitude": -122.00738020000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.333610799999995,
+            "longitude": -122.00747639999997
+          },
+          "ne": {
+            "latitude": 37.3337161,
+            "longitude": -122.00728319999999
+          }
+        },
+        "planeHeightAtCenterMeters": 69.501785
+      },
+      {
+        "pitchDegrees": 3.2149155,
+        "azimuthDegrees": 2.3369606,
+        "stats": {
+          "areaMeters2": 95.73066,
+          "sunshineQuantiles": [
+            1180.8845,
+            1423.1934,
+            1602.3982,
+            1663.3058,
+            1692.1775,
+            1712.9995,
+            1726.8121,
+            1738.3849,
+            1753.0768,
+            1776.6752,
+            1967.3579
+          ],
+          "groundAreaMeters2": 95.58
+        },
+        "center": {
+          "latitude": 37.3369211,
+          "longitude": -122.0088976
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3368965,
+            "longitude": -122.0090644
+          },
+          "ne": {
+            "latitude": 37.33694,
+            "longitude": -122.0087139
+          }
+        },
+        "planeHeightAtCenterMeters": 67.46597
+      },
+      {
+        "pitchDegrees": 29.944347,
+        "azimuthDegrees": 173.91798,
+        "stats": {
+          "areaMeters2": 111.20463,
+          "sunshineQuantiles": [
+            637.967,
+            1125.7258,
+            1148.1438,
+            1435.5963,
+            1876.3466,
+            1923.0997,
+            1938.7334,
+            1949.6852,
+            1958.3455,
+            1966.5518,
+            1975.4867
+          ],
+          "groundAreaMeters2": 96.36
+        },
+        "center": {
+          "latitude": 37.3364259,
+          "longitude": -122.0091772
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3363892,
+            "longitude": -122.00940969999998
+          },
+          "ne": {
+            "latitude": 37.3364499,
+            "longitude": -122.0089405
+          }
+        },
+        "planeHeightAtCenterMeters": 65.32784
+      },
+      {
+        "pitchDegrees": 7.470567,
+        "azimuthDegrees": 1.8588148,
+        "stats": {
+          "areaMeters2": 95.924225,
+          "sunshineQuantiles": [
+            422.27872,
+            1615.4528,
+            1630.9733,
+            1641.8527,
+            1652.0857,
+            1662.4508,
+            1673.088,
+            1684.2025,
+            1694.6206,
+            1706.9308,
+            1949.4043
+          ],
+          "groundAreaMeters2": 95.11
+        },
+        "center": {
+          "latitude": 37.3368746,
+          "longitude": -122.0088417
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.336842499999996,
+            "longitude": -122.0089353
+          },
+          "ne": {
+            "latitude": 37.3369146,
+            "longitude": -122.0087199
+          }
+        },
+        "planeHeightAtCenterMeters": 68.10947
+      },
+      {
+        "pitchDegrees": 5.4284973,
+        "azimuthDegrees": 6.9491887,
+        "stats": {
+          "areaMeters2": 91.81177,
+          "sunshineQuantiles": [
+            765.9139,
+            1505.3707,
+            1634.3818,
+            1657.8065,
+            1674.9344,
+            1689.1808,
+            1701.023,
+            1712.4943,
+            1723.7041,
+            1739.6122,
+            1964.9431
+          ],
+          "groundAreaMeters2": 91.4
+        },
+        "center": {
+          "latitude": 37.3332403,
+          "longitude": -122.0091615
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3332063,
+            "longitude": -122.00928780000001
+          },
+          "ne": {
+            "latitude": 37.333271599999996,
+            "longitude": -122.0090217
+          }
+        },
+        "planeHeightAtCenterMeters": 67.52712
+      },
+      {
+        "pitchDegrees": 7.434937,
+        "azimuthDegrees": 246.67847,
+        "stats": {
+          "areaMeters2": 89.51258,
+          "sunshineQuantiles": [
+            1621.576,
+            1729.4381,
+            1746.8267,
+            1756.4828,
+            1764.5977,
+            1770.8646,
+            1777.078,
+            1784.6724,
+            1793.8782,
+            1805.9915,
+            1872.779
+          ],
+          "groundAreaMeters2": 88.76
+        },
+        "center": {
+          "latitude": 37.3354818,
+          "longitude": -122.00709909999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.335438499999995,
+            "longitude": -122.00717019999999
+          },
+          "ne": {
+            "latitude": 37.3355207,
+            "longitude": -122.00703929999999
+          }
+        },
+        "planeHeightAtCenterMeters": 67.90753
+      },
+      {
+        "pitchDegrees": 9.77607,
+        "azimuthDegrees": 210.2448,
+        "stats": {
+          "areaMeters2": 88.200775,
+          "sunshineQuantiles": [
+            1515.2126,
+            1784.8167,
+            1813.8654,
+            1823.3679,
+            1831.7755,
+            1839.7759,
+            1847.3414,
+            1854.5731,
+            1862.1748,
+            1873.2543,
+            1953.0947
+          ],
+          "groundAreaMeters2": 86.92
+        },
+        "center": {
+          "latitude": 37.3362124,
+          "longitude": -122.00790219999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.33613,
+            "longitude": -122.00799079999999
+          },
+          "ne": {
+            "latitude": 37.3362577,
+            "longitude": -122.00780290000002
+          }
+        },
+        "planeHeightAtCenterMeters": 67.42438
+      },
+      {
+        "pitchDegrees": 7.8532734,
+        "azimuthDegrees": 46.1526,
+        "stats": {
+          "areaMeters2": 84.89622,
+          "sunshineQuantiles": [
+            590.75867,
+            1491.5955,
+            1608.1672,
+            1652.7312,
+            1673.9528,
+            1690.9873,
+            1704.5616,
+            1718.3925,
+            1735.9318,
+            1758.3983,
+            1874.4965
+          ],
+          "groundAreaMeters2": 84.1
+        },
+        "center": {
+          "latitude": 37.3337326,
+          "longitude": -122.01068459999999
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3336299,
+            "longitude": -122.01074410000001
+          },
+          "ne": {
+            "latitude": 37.3338336,
+            "longitude": -122.0106342
+          }
+        },
+        "planeHeightAtCenterMeters": 69.40714
+      },
+      {
+        "pitchDegrees": 1.8318542,
+        "azimuthDegrees": 331.88223,
+        "stats": {
+          "areaMeters2": 81.651726,
+          "sunshineQuantiles": [
+            733.8328,
+            1540.945,
+            1684.6589,
+            1729.382,
+            1752.6454,
+            1764.5597,
+            1774.3192,
+            1784.2751,
+            1797.796,
+            1826.277,
+            1968.1848
+          ],
+          "groundAreaMeters2": 81.61
+        },
+        "center": {
+          "latitude": 37.3352583,
+          "longitude": -122.0067769
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.335197099999995,
+            "longitude": -122.0068313
+          },
+          "ne": {
+            "latitude": 37.3353196,
+            "longitude": -122.0067259
+          }
+        },
+        "planeHeightAtCenterMeters": 71.85305
+      },
+      {
+        "pitchDegrees": 7.625363,
+        "azimuthDegrees": 199.3263,
+        "stats": {
+          "areaMeters2": 82.51973,
+          "sunshineQuantiles": [
+            970.37506,
+            1809.2207,
+            1824.6176,
+            1833.2731,
+            1840.1805,
+            1845.9213,
+            1851.1189,
+            1856.0619,
+            1861.0989,
+            1867.9539,
+            1892.3473
+          ],
+          "groundAreaMeters2": 81.79
+        },
+        "center": {
+          "latitude": 37.3364902,
+          "longitude": -122.00825300000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.33641730000001,
+            "longitude": -122.00829739999999
+          },
+          "ne": {
+            "latitude": 37.3365577,
+            "longitude": -122.0082109
+          }
+        },
+        "planeHeightAtCenterMeters": 69.25047
+      },
+      {
+        "pitchDegrees": 1.0841972,
+        "azimuthDegrees": 335.0393,
+        "stats": {
+          "areaMeters2": 78.92413,
+          "sunshineQuantiles": [
+            280.23798,
+            1538.4799,
+            1649.6982,
+            1696.6866,
+            1725.0933,
+            1743.0348,
+            1758.6072,
+            1771.9933,
+            1786.4537,
+            1806.6278,
+            1943.0249
+          ],
+          "groundAreaMeters2": 78.91
+        },
+        "center": {
+          "latitude": 37.3366736,
+          "longitude": -122.00937270000001
+        },
+        "boundingBox": {
+          "sw": {
+            "latitude": 37.3366398,
+            "longitude": -122.0094764
+          },
+          "ne": {
+            "latitude": 37.3367073,
+            "longitude": -122.00927010000001
+          }
+        },
+        "planeHeightAtCenterMeters": 71.86834
+      }
+    ],
+    "panelCapacityWatts": 400,
+    "panelHeightMeters": 1.879,
+    "panelWidthMeters": 1.045,
+    "panelLifetimeYears": 20,
+    "buildingStats": {
+      "areaMeters2": 83654.914,
+      "sunshineQuantiles": [
+        238.26804,
+        1334.3292,
+        1613.7344,
+        1669.1053,
+        1705.0183,
+        1744.1205,
+        1774.7792,
+        1802.7491,
+        1835.3591,
+        1865.0966,
+        1982.2074
+      ],
+      "groundAreaMeters2": 78689.47
+    }
+  },
+  "boundingBox": {
+    "sw": {
+      "latitude": 37.3327199,
+      "longitude": -122.0116867
+    },
+    "ne": {
+      "latitude": 37.3369976,
+      "longitude": -122.0063284
+    }
+  },
+  "imageryQuality": "HIGH",
+  "imageryProcessedDate": {
+    "year": 2026,
+    "month": 4,
+    "day": 19
+  }
+}
