@@ -1,0 +1,12 @@
+# pre-commit hooks: https://pre-commit.com
+# To install: `pre-commit install` (also need `trufflehog` on PATH).
+repos:
+  - repo: local
+    hooks:
+      - id: trufflehog
+        name: TruffleHog (detect committed secrets)
+        description: Scan staged files for credentials before commit.
+        entry: trufflehog filesystem --no-update --no-verification --fail
+        language: system
+        pass_filenames: true
+        stages: [pre-commit]
