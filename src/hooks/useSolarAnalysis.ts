@@ -11,6 +11,7 @@ import {
 } from "../lib/apis/openMeteo";
 import {
   fetchBuildingInsights,
+  GoogleSolarError,
   type BuildingInsights,
 } from "../lib/apis/googleSolar";
 
@@ -62,7 +63,16 @@ export function useSolarAnalysis(input: AnalysisInput | null): SolarAnalysis {
     queryFn: () =>
       fetchBuildingInsights({ lat: coords!.lat, lng: coords!.lng }),
     enabled: !!coords,
-    retry: false,
+    // One transient retry to match the other three queries' default
+    // resilience, but skip retry on terminal errors: not_found means
+    // "no coverage here" (the HIGH→MEDIUM fallback inside the client
+    // already exhausted that path), missing_key and bad_response won't
+    // recover by retrying either. Only request_failed (network blip /
+    // 5xx) is worth a second swing.
+    retry: (failureCount, error) =>
+      failureCount < 1 &&
+      (!(error instanceof GoogleSolarError) ||
+        error.kind === "request_failed"),
   });
 
   const systemCapacityKw = deriveSystemCapacityKw(googleSolarQuery.data);
