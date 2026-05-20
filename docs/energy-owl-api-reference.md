@@ -178,7 +178,7 @@ Apple Park coords; fixture saved at
     "ne": { "latitude": ..., "longitude": ... }
   },
   "solarPotential": {
-    "maxArrayPanelsCount": 24942,
+    "maxArrayPanelsCount": 27297,
     "maxArrayAreaMeters2": 48975,
     "maxSunshineHoursPerYear": 1892,
     "carbonOffsetFactorKgPerMwh": 428.9,

@@ -146,6 +146,11 @@ If a feature creeps toward Aurora Solar territory, stop and flag it.
 If something breaks, propose ONE fix and run it. Don't try three things
 in parallel — I lose the ability to diagnose.
 
+### WebGL context loss during dev
+If the R3F canvas goes black during dev iteration, bounce the dev server
+before debugging code — HMR + React StrictMode + R3F can leave the WebGL
+context in a broken state that survives reload but not restart.
+
 ## Session goals
 
 JP works in numbered sessions. Each has explicit done criteria.
