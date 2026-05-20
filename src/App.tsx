@@ -57,7 +57,7 @@ export default function App() {
         </section>
 
         <section className="rounded-lg border border-sage/20 bg-forest min-h-[420px] overflow-hidden">
-          <Scene />
+          <Scene buildingInsights={result.googleSolar.data ?? null} />
         </section>
       </div>
 
