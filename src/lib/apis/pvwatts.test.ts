@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
-import { fetchPvwatts, S2_DEFAULT_SYSTEM_CAPACITY_KW } from "./pvwatts";
+import { fetchPvwatts, FALLBACK_SYSTEM_CAPACITY_KW } from "./pvwatts";
 
 const okResponse = {
   errors: [],
@@ -28,7 +28,7 @@ describe("fetchPvwatts", () => {
     vi.unstubAllEnvs();
   });
 
-  it("uses developer.nlr.gov (not nrel.gov) and includes all S2 defaults", async () => {
+  it("uses developer.nlr.gov (not nrel.gov) and includes all defaults", async () => {
     (fetch as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({
       ok: true,
       json: async () => okResponse,
@@ -52,8 +52,20 @@ describe("fetchPvwatts", () => {
     expect(url).toContain("timeframe=monthly");
   });
 
-  it("exports the S2 default system capacity constant as 100", () => {
-    expect(S2_DEFAULT_SYSTEM_CAPACITY_KW).toBe(100);
+  it("exports the fallback system capacity constant as 100", () => {
+    expect(FALLBACK_SYSTEM_CAPACITY_KW).toBe(100);
+  });
+
+  it("forwards an explicit systemCapacityKw into the query", async () => {
+    (fetch as unknown as ReturnType<typeof vi.fn>).mockResolvedValue({
+      ok: true,
+      json: async () => okResponse,
+    });
+    await fetchPvwatts({ lat: 36.1699, lng: -115.1398, systemCapacityKw: 9977 });
+    const url = (fetch as unknown as ReturnType<typeof vi.fn>).mock
+      .calls[0][0] as string;
+    expect(url).toContain("system_capacity=9977");
+    expect(url).not.toContain("system_capacity=100");
   });
 
   it("parses outputs on success", async () => {

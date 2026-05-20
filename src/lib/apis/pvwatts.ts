@@ -1,6 +1,8 @@
-// TODO(s3): system_capacity is hardcoded to 100 kW for S2. In S3, derive it
-// from Google Solar's maxArrayPanelsCount × panelCapacityWatts ÷ 1000.
-export const S2_DEFAULT_SYSTEM_CAPACITY_KW = 100;
+// Used when Google Solar buildingInsights is unavailable for the location
+// (404 outside US metro coverage, or API errors). When Solar data is
+// present, useSolarAnalysis derives capacity from
+// maxArrayPanelsCount × panelCapacityWatts ÷ 1000 instead.
+export const FALLBACK_SYSTEM_CAPACITY_KW = 100;
 
 export type PvwattsResult = {
   acAnnualKwh: number;
@@ -30,9 +32,8 @@ export async function fetchPvwatts(args: {
     api_key: apiKey,
     lat: String(args.lat),
     lon: String(args.lng),
-    // TODO(s3): replace with Google Solar–derived capacity
     system_capacity: String(
-      args.systemCapacityKw ?? S2_DEFAULT_SYSTEM_CAPACITY_KW,
+      args.systemCapacityKw ?? FALLBACK_SYSTEM_CAPACITY_KW,
     ),
     module_type: "0",
     losses: "14",

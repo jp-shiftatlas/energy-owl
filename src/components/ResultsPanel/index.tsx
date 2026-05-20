@@ -44,6 +44,9 @@ export default function ResultsPanel({ analysis }: Props) {
 
   const pv = analysis.pvwatts;
   const om = analysis.openMeteo;
+  const gs = analysis.googleSolar;
+  const usingSolarCapacity = !!gs.data;
+  const capacityLabel = `${analysis.systemCapacityKw.toLocaleString("en-US")} kW`;
 
   const pvState: "loading" | "ok" | "unavailable" = pv.isLoading
     ? "loading"
@@ -68,7 +71,7 @@ export default function ResultsPanel({ analysis }: Props) {
       </p>
 
       <StatTile
-        label="Annual production (100 kW system)"
+        label={`Annual production (${capacityLabel} system)`}
         value={pv.data ? formatKwh(pv.data.acAnnualKwh) : ""}
         unit="kWh / year"
         state={pvState}
@@ -102,9 +105,13 @@ export default function ResultsPanel({ analysis }: Props) {
         </p>
       ) : null}
 
-      <p className="text-xs text-offwhite/30 mt-2 italic">
-        100 kW assumption; replaced with roof-derived capacity in S3.
-      </p>
+      {!usingSolarCapacity ? (
+        <p className="text-xs text-offwhite/30 mt-2 italic">
+          {gs.isLoading
+            ? "Sizing the array from roof geometry…"
+            : "Roof geometry unavailable; using a 100 kW system assumption."}
+        </p>
+      ) : null}
     </div>
   );
 }

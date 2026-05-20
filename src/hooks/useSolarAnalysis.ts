@@ -1,10 +1,18 @@
 import { useQuery } from "@tanstack/react-query";
 import { geocode, type GeocodeResult } from "../lib/apis/geocoder";
-import { fetchPvwatts, type PvwattsResult } from "../lib/apis/pvwatts";
+import {
+  fetchPvwatts,
+  FALLBACK_SYSTEM_CAPACITY_KW,
+  type PvwattsResult,
+} from "../lib/apis/pvwatts";
 import {
   fetchDailyIrradiance,
   type DailyIrradiance,
 } from "../lib/apis/openMeteo";
+import {
+  fetchBuildingInsights,
+  type BuildingInsights,
+} from "../lib/apis/googleSolar";
 
 export type AnalysisInput =
   | { kind: "address"; address: string }
@@ -21,8 +29,16 @@ export type SolarAnalysis = {
   coords: QueryState<GeocodeResult>;
   pvwatts: QueryState<PvwattsResult>;
   openMeteo: QueryState<DailyIrradiance>;
+  googleSolar: QueryState<BuildingInsights>;
+  systemCapacityKw: number;
   isIdle: boolean;
 };
+
+function deriveSystemCapacityKw(data: BuildingInsights | undefined): number {
+  if (!data) return FALLBACK_SYSTEM_CAPACITY_KW;
+  const { maxArrayPanelsCount, panelCapacityWatts } = data.solarPotential;
+  return Math.round((maxArrayPanelsCount * panelCapacityWatts) / 1000);
+}
 
 export function useSolarAnalysis(input: AnalysisInput | null): SolarAnalysis {
   const geocodeQuery = useQuery({
@@ -41,10 +57,28 @@ export function useSolarAnalysis(input: AnalysisInput | null): SolarAnalysis {
       ? { lat: input.lat, lng: input.lng, matchedAddress: input.address }
       : geocodeQuery.data;
 
-  const pvwattsQuery = useQuery({
-    queryKey: ["pvwatts", coords?.lat, coords?.lng],
-    queryFn: () => fetchPvwatts({ lat: coords!.lat, lng: coords!.lng }),
+  const googleSolarQuery = useQuery({
+    queryKey: ["googleSolar", coords?.lat, coords?.lng],
+    queryFn: () =>
+      fetchBuildingInsights({ lat: coords!.lat, lng: coords!.lng }),
     enabled: !!coords,
+    retry: false,
+  });
+
+  const systemCapacityKw = deriveSystemCapacityKw(googleSolarQuery.data);
+
+  const pvwattsQuery = useQuery({
+    queryKey: ["pvwatts", coords?.lat, coords?.lng, systemCapacityKw],
+    queryFn: () =>
+      fetchPvwatts({
+        lat: coords!.lat,
+        lng: coords!.lng,
+        systemCapacityKw,
+      }),
+    // Wait until Google Solar has settled (success OR error) so the
+    // capacity passed to PVWatts is final — no flicker between the
+    // 100 kW fallback estimate and the roof-derived one.
+    enabled: !!coords && googleSolarQuery.isFetched,
   });
 
   const openMeteoQuery = useQuery({
@@ -52,6 +86,10 @@ export function useSolarAnalysis(input: AnalysisInput | null): SolarAnalysis {
     queryFn: () => fetchDailyIrradiance({ lat: coords!.lat, lng: coords!.lng }),
     enabled: !!coords,
   });
+
+  const pvwattsIsFetching =
+    pvwattsQuery.isLoading && pvwattsQuery.fetchStatus !== "idle";
+  const pvwattsIsWaitingOnSolar = !!coords && !googleSolarQuery.isFetched;
 
   return {
     coords: {
@@ -62,8 +100,7 @@ export function useSolarAnalysis(input: AnalysisInput | null): SolarAnalysis {
     },
     pvwatts: {
       data: pvwattsQuery.data,
-      isLoading:
-        pvwattsQuery.isLoading && pvwattsQuery.fetchStatus !== "idle",
+      isLoading: pvwattsIsFetching || pvwattsIsWaitingOnSolar,
       isError: pvwattsQuery.isError,
       error: pvwattsQuery.error,
     },
@@ -74,6 +111,14 @@ export function useSolarAnalysis(input: AnalysisInput | null): SolarAnalysis {
       isError: openMeteoQuery.isError,
       error: openMeteoQuery.error,
     },
+    googleSolar: {
+      data: googleSolarQuery.data,
+      isLoading:
+        googleSolarQuery.isLoading && googleSolarQuery.fetchStatus !== "idle",
+      isError: googleSolarQuery.isError,
+      error: googleSolarQuery.error,
+    },
+    systemCapacityKw,
     isIdle: input === null,
   };
 }
